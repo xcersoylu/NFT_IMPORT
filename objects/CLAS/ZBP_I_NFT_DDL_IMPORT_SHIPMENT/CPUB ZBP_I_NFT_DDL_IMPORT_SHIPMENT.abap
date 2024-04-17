@@ -1,0 +1,1 @@
+CLASS zbp_i_nft_ddl_import_shipment DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_nft_ddl_import_shipment.
