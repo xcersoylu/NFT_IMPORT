@@ -143,6 +143,105 @@
   [
    {
     "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":1,
+    "AS4VERS":0,
+    "DDTEXT":"Shipment",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"1"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":2,
+    "AS4VERS":0,
+    "DDTEXT":"Customs clearance",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"2"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":3,
+    "AS4VERS":0,
+    "DDTEXT":"Clearance to bonded warehouse",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"3"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":4,
+    "AS4VERS":0,
+    "DDTEXT":"Clearance from bonded warehouse",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"4"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":5,
+    "AS4VERS":0,
+    "DDTEXT":"Return to country from customs",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"5"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":6,
+    "AS4VERS":0,
+    "DDTEXT":"Return to country from bonded warehouse",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"6"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":7,
+    "AS4VERS":0,
+    "DDTEXT":"Transit Sale",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"7"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":8,
+    "AS4VERS":0,
+    "DDTEXT":"Clearance to temporary warehouse",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"8"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":9,
+    "AS4VERS":0,
+    "DDTEXT":"Clearance from temporary warehouse",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"9"
+   },
+   {
+    "DOMNAME":"ZNFT_D_DDTYP",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "VALPOS":1,

@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_BEZNK",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Unplanned Delivery Costs",
+    "REPTEXT":"Unplanned Delivery Costs",
+    "SCRTEXT_S":"Del.Costs",
+    "SCRTEXT_M":"Unpl. Del. Csts",
+    "SCRTEXT_L":"Unplanned Delivery Costs"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_BEZNK",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

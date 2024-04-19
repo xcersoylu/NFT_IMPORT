@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_BKLAS",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Valuation Class",
+    "REPTEXT":"Valuation Class",
+    "SCRTEXT_S":"Val. Class",
+    "SCRTEXT_M":"Valuation Class",
+    "SCRTEXT_L":"Valuation Class"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_BKLAS",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

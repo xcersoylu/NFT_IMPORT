@@ -156,7 +156,8 @@ CLASS lhc_ZI_NFT_DDL_IMPORT_PO_LIST_ IMPLEMENTATION.
     ALL FIELDS WITH CORRESPONDING #( keys )
     RESULT DATA(lt_clearence_lines).
     LOOP AT lt_clearence_lines INTO DATA(ls_clearence_line).
-      IF ls_clearence_line-shipquantity < ls_clearence_line-clearencequantity.
+      IF ls_clearence_line-shipquantity < ls_clearence_line-clearencequantity OR
+         ls_clearence_line-clearencequantity_max < ls_clearence_line-clearencequantity.
         APPEND VALUE #( %tky = ls_clearence_line-%tky ) TO failed-zi_nft_ddl_import_po_list_clea.
         APPEND VALUE #( %tky = keys[ 1 ]-%tky
                         %msg = new_message( id = 'ZNFT_IMPORT_MC'

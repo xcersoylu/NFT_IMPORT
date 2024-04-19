@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_KKURS",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Condition exchange rate for conversion to local currency",
+    "REPTEXT":"Condition exchange rate",
+    "SCRTEXT_S":"CondExchRt",
+    "SCRTEXT_M":"Cond.exch.rate",
+    "SCRTEXT_L":"Condition exchange rate"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_KKURS",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

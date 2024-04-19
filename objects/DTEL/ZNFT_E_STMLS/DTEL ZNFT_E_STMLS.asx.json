@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_STMLS",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Incentive Doc.",
+    "REPTEXT":"Incentive Doc.",
+    "SCRTEXT_S":"Incnt.Doc.",
+    "SCRTEXT_M":"Incentive Doc.",
+    "SCRTEXT_L":"Incentive Doc."
+   },
+   {
+    "ROLLNAME":"ZNFT_E_STMLS",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

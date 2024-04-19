@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_REFDOC",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Reference Document",
+    "REPTEXT":"Reference Document",
+    "SCRTEXT_S":"Ref.Doc.",
+    "SCRTEXT_M":"Reference Document",
+    "SCRTEXT_L":"Reference Document"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_REFDOC",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

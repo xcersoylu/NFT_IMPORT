@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_IMPORTDATE",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Import Date",
+    "REPTEXT":"Import Date",
+    "SCRTEXT_S":"Import D.",
+    "SCRTEXT_M":"Import Date",
+    "SCRTEXT_L":"Import Date"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_IMPORTDATE",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_URL",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Logo Url",
+    "REPTEXT":"Logo Url",
+    "SCRTEXT_S":"Logo Url",
+    "SCRTEXT_M":"Logo Url",
+    "SCRTEXT_L":"Logo Url"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_URL",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_BEZEI40",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Description",
+    "REPTEXT":"Description",
+    "SCRTEXT_S":"Descriptn",
+    "SCRTEXT_M":"Description",
+    "SCRTEXT_L":"Description"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_BEZEI40",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

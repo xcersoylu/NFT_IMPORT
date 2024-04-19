@@ -103,6 +103,24 @@
   "data":
   [
    {
+    "SPRSL":"E",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"000",
+    "TEXT":"&1&2&3&4"
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"001",
+    "TEXT":"&1 delivery created."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"002",
+    "TEXT":"Token error."
+   },
+   {
     "SPRSL":"T",
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"000",
@@ -175,42 +193,42 @@
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"000",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-17",
+    "DATUM":"2024-04-19",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"001",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-17",
+    "DATUM":"2024-04-19",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"002",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-17",
+    "DATUM":"2024-04-19",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"003",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-17",
+    "DATUM":"2024-04-19",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"004",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-17",
+    "DATUM":"2024-04-19",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"005",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-17",
+    "DATUM":"2024-04-19",
     "SELFDEF":"3"
    }
   ]

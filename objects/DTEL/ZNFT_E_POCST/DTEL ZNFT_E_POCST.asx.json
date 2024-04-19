@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_POCST",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Expense entry with SAS",
+    "REPTEXT":"Expense entry with SAS",
+    "SCRTEXT_S":"Expense en",
+    "SCRTEXT_M":"Expense entry with S",
+    "SCRTEXT_L":"Expense entry with SAS"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_POCST",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

@@ -1,0 +1,1 @@
+CLASS zbp_i_nft_ddl_import_clear_bln DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_nft_ddl_import_clear_blnc_h.

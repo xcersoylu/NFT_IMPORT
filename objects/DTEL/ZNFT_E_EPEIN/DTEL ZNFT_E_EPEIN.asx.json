@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_EPEIN",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Price unit",
+    "REPTEXT":"Price unit",
+    "SCRTEXT_S":"Price unit",
+    "SCRTEXT_M":"Price unit",
+    "SCRTEXT_L":"Price unit"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_EPEIN",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_CSRCE",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Source of Cost",
+    "REPTEXT":"Source of Cost",
+    "SCRTEXT_S":"Src of Cst",
+    "SCRTEXT_M":"Source of Cost",
+    "SCRTEXT_L":"Source of Cost"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_CSRCE",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

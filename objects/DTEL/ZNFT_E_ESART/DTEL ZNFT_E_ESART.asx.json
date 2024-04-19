@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_ESART",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Purchasing Document Type",
+    "REPTEXT":"Purchasing Doc.Type",
+    "SCRTEXT_S":"Doc.Type",
+    "SCRTEXT_M":"Document Type",
+    "SCRTEXT_L":"Purchasing Doc.Type"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_ESART",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

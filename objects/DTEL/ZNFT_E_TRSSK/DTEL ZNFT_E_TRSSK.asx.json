@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_TRSSK",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Transit Sale Account",
+    "REPTEXT":"Transit Sale Account",
+    "SCRTEXT_S":"Trn Sale A",
+    "SCRTEXT_M":"Transit Sale Account",
+    "SCRTEXT_L":"Transit Sale Account"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_TRSSK",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

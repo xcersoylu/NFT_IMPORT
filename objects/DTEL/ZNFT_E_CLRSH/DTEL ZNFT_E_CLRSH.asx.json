@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_CLRSH",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Clearence with Shipment",
+    "REPTEXT":"Clearence with Shipment",
+    "SCRTEXT_S":"Clr.Shipm",
+    "SCRTEXT_M":"Clearence with Shipm",
+    "SCRTEXT_L":"Clearence with Shipment"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_CLRSH",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

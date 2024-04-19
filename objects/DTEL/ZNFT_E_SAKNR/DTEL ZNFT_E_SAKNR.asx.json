@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_SAKNR",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"G/L Account Number",
+    "REPTEXT":"G/L Account Number",
+    "SCRTEXT_S":"G/L acct",
+    "SCRTEXT_M":"G/L Account Number",
+    "SCRTEXT_L":"G/L Account Number"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_SAKNR",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

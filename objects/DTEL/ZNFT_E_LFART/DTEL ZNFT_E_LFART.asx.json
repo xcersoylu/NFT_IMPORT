@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_LFART",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Delivery Type",
+    "REPTEXT":"Delivery Type",
+    "SCRTEXT_S":"Deliv.Type",
+    "SCRTEXT_M":"Delivery Type",
+    "SCRTEXT_L":"Delivery Type"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_LFART",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

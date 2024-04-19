@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_ORIGIN",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Origin",
+    "REPTEXT":"Origin",
+    "SCRTEXT_S":"Origin",
+    "SCRTEXT_M":"Origin",
+    "SCRTEXT_L":"Origin"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_ORIGIN",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

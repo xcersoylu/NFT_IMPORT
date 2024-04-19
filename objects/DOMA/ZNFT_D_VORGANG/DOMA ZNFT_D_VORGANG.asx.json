@@ -116,6 +116,72 @@
   [
    {
     "DOMNAME":"ZNFT_D_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":1,
+    "AS4VERS":0,
+    "DDTEXT":"Invoice",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"1"
+   },
+   {
+    "DOMNAME":"ZNFT_D_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":2,
+    "AS4VERS":0,
+    "DDTEXT":"Credit Memo",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"2"
+   },
+   {
+    "DOMNAME":"ZNFT_D_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":3,
+    "AS4VERS":0,
+    "DDTEXT":"Subsequent Debit",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"3"
+   },
+   {
+    "DOMNAME":"ZNFT_D_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":4,
+    "AS4VERS":0,
+    "DDTEXT":"Subsequent Credit",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"4"
+   },
+   {
+    "DOMNAME":"ZNFT_D_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":5,
+    "AS4VERS":0,
+    "DDTEXT":"Exchange Rate Diff.",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"X"
+   },
+   {
+    "DOMNAME":"ZNFT_D_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":6,
+    "AS4VERS":0,
+    "DDTEXT":"Advence Payment",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"A"
+   },
+   {
+    "DOMNAME":"ZNFT_D_VORGANG",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "VALPOS":1,

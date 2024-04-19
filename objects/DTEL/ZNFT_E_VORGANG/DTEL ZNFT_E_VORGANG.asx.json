@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_VORGANG",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Procedure",
+    "REPTEXT":"Procedure",
+    "SCRTEXT_S":"Procedure",
+    "SCRTEXT_M":"Procedure",
+    "SCRTEXT_L":"Procedure"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_VORGANG",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

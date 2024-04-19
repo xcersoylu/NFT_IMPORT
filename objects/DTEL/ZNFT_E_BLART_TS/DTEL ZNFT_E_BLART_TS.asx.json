@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_BLART_TS",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Transit Sales File Closing Document Type",
+    "REPTEXT":"Transit Sales File Closing Document Type",
+    "SCRTEXT_S":"Transit Sa",
+    "SCRTEXT_M":"Transit Sales File C",
+    "SCRTEXT_L":"Transit Sales File Closing Document Type"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_BLART_TS",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

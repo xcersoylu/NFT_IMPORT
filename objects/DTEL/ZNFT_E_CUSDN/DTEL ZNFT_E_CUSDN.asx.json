@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_CUSDN",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Customs declaration number",
+    "REPTEXT":"Customs declaration number",
+    "SCRTEXT_S":"Cus.dec.no",
+    "SCRTEXT_M":"Cus.dec.num.",
+    "SCRTEXT_L":"Customs declaration number"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_CUSDN",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

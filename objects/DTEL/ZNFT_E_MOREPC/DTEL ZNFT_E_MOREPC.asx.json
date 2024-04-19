@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_MOREPC",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Overload Permission",
+    "REPTEXT":"Overload Permission",
+    "SCRTEXT_S":"Overload P",
+    "SCRTEXT_M":"Overload Permission",
+    "SCRTEXT_L":"Overload Permission"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_MOREPC",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

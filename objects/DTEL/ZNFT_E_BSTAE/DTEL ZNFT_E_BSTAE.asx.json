@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_BSTAE",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Confirmation Control Key",
+    "REPTEXT":"Confirmation Control",
+    "SCRTEXT_S":"ConfContr.",
+    "SCRTEXT_M":"Conf. Control",
+    "SCRTEXT_L":"Confirmation Control"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_BSTAE",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

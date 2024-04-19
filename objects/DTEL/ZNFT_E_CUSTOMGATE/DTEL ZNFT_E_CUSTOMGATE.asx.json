@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_CUSTOMGATE",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Customs Gate",
+    "REPTEXT":"Customs Gate",
+    "SCRTEXT_S":"Cus.Gate",
+    "SCRTEXT_M":"Customs Gate",
+    "SCRTEXT_L":"Customs Gate"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_CUSTOMGATE",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

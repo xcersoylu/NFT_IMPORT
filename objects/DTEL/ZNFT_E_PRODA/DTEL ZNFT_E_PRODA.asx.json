@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_PRODA",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Invoice: Date of invoice document for import processing",
+    "REPTEXT":"Invoice Date",
+    "SCRTEXT_S":"Inv.Date",
+    "SCRTEXT_M":"Invoice Date",
+    "SCRTEXT_L":"Invoice Date"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_PRODA",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

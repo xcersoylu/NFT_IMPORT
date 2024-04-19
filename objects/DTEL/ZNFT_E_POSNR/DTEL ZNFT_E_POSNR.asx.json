@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_POSNR",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Item Number",
+    "REPTEXT":"Item Number",
+    "SCRTEXT_S":"I",
+    "SCRTEXT_M":"Item Number",
+    "SCRTEXT_L":"Item Number"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_POSNR",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

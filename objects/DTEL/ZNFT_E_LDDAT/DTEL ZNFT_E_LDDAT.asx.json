@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_LDDAT",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Loading Date",
+    "REPTEXT":"Loading Date",
+    "SCRTEXT_S":"Load.Date",
+    "SCRTEXT_M":"Loading Date",
+    "SCRTEXT_L":"Loading Date"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_LDDAT",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

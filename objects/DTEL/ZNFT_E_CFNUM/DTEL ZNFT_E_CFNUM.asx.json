@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_CFNUM",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Correspondence file number",
+    "REPTEXT":"Correspondence file number",
+    "SCRTEXT_S":"Cor.f.num.",
+    "SCRTEXT_M":"Cor.file num.",
+    "SCRTEXT_L":"Correspondence file number"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_CFNUM",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

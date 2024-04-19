@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_LFDAT_V",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Delivery Date",
+    "REPTEXT":"Delivery Date",
+    "SCRTEXT_S":"Deliv.Date",
+    "SCRTEXT_M":"Delivery Date",
+    "SCRTEXT_L":"Delivery Date"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_LFDAT_V",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

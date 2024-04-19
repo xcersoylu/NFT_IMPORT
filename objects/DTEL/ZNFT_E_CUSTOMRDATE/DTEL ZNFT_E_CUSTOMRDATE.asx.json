@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_CUSTOMRDATE",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Customs Arrival Date",
+    "REPTEXT":"Customs Arrival Date",
+    "SCRTEXT_S":"Cus.Ar.Dt.",
+    "SCRTEXT_M":"Customs Arr.Date",
+    "SCRTEXT_L":"Customs Arrival Date"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_CUSTOMRDATE",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

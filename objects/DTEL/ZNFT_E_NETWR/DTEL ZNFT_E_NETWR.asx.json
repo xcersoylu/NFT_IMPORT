@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_NETWR",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Net Value in Document Currency",
+    "REPTEXT":"Net Value",
+    "SCRTEXT_S":"Net Value",
+    "SCRTEXT_M":"Net Value",
+    "SCRTEXT_L":"Net Value"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_NETWR",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

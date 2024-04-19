@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_MOREGR",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Withdrawal Amount Excess MG Permit",
+    "REPTEXT":"Withdrawal Amount Excess MG Permit",
+    "SCRTEXT_S":"Withdrawal",
+    "SCRTEXT_M":"Withdrawal Amount Ex",
+    "SCRTEXT_L":"Withdrawal Amount Excess MG Permit"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_MOREGR",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

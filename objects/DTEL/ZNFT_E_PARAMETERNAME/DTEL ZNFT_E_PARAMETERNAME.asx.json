@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_PARAMETERNAME",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Parameter Name",
+    "REPTEXT":"Parameter Name",
+    "SCRTEXT_S":"Param.Name",
+    "SCRTEXT_M":"Parameter Name",
+    "SCRTEXT_L":"Parameter Name"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_PARAMETERNAME",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

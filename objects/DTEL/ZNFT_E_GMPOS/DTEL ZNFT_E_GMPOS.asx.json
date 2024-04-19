@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_GMPOS",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Goods Movement Possible",
+    "REPTEXT":"Goods Movement Possible",
+    "SCRTEXT_S":"Goods Move",
+    "SCRTEXT_M":"Goods Movement Possi",
+    "SCRTEXT_L":"Goods Movement Possible"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_GMPOS",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

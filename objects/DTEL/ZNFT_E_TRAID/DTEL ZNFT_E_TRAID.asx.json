@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_TRAID",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Means of Transport ID",
+    "REPTEXT":"Means of Trans. ID",
+    "SCRTEXT_S":"TrnsIDCode",
+    "SCRTEXT_M":"Mns of Trans.ID",
+    "SCRTEXT_L":"Means of Trans. ID"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_TRAID",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,

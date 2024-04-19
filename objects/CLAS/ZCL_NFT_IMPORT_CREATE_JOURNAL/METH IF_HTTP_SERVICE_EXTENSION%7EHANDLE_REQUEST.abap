@@ -43,7 +43,8 @@
       IF ls_commit_failed IS INITIAL.
         response->set_status('200').
         ms_response-accountingdocument = VALUE #( ls_commit_reported-journalentry[ 1 ]-AccountingDocument OPTIONAL ).
-        ls_r001 = VALUE #( companycode           = ms_request-header-companycode
+        ls_r001 = VALUE #( client                = sy-mandt
+                           companycode           = ms_request-header-companycode
                            accountingdocument    = ms_response-accountingdocument
                            fiscalyear            = ms_request-header-documentdate(4)
                            costsource            = ms_request-header-costsource
@@ -51,7 +52,8 @@
                            automatictaxcalculate = ms_request-header-automatictaxcalculate
                            letterofcreditnumber  = ms_request-header-letterofcreditnumber
                            agencytotransfer      = ms_request-header-agencytotransfer ).
-        lt_r002 = VALUE #( FOR wa_glitem2 IN ms_request-glitem ( companycode           = ms_request-header-companycode
+        lt_r002 = VALUE #( FOR wa_glitem2 IN ms_request-glitem ( client                = sy-mandt
+                                                                 companycode           = ms_request-header-companycode
                                                                  accountingdocument    = ms_response-accountingdocument
                                                                  fiscalyear            = ms_request-header-documentdate(4)
                                                                  costtype              = wa_glitem2-costtype
@@ -64,8 +66,9 @@
                                                                  taxamount             = wa_glitem2-taxamount
                                                                  debitcreditindicator  = wa_glitem2-debitcreditindicator
                                                                  ) ).
-        INSERT znft_t_r001 FROM @ls_r001.
-        INSERT znft_t_r002 FROM TABLE @lt_r002.
+        modify znft_t_r001 FROM @ls_r001.
+        modify znft_t_r002 FROM TABLE @lt_r002.
+        commit WORK AND WAIT.
       ELSE.
 
       ENDIF.

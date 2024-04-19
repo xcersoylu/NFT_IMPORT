@@ -80,6 +80,28 @@
   [
    {
     "DOMNAME":"ZNFT_D_XFELD",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":1,
+    "AS4VERS":0,
+    "DDTEXT":"Yes",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":"X"
+   },
+   {
+    "DOMNAME":"ZNFT_D_XFELD",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "VALPOS":2,
+    "AS4VERS":0,
+    "DDTEXT":"No",
+    "DOMVAL_LD":"",
+    "DOMVAL_HD":"",
+    "DOMVALUE_L":""
+   },
+   {
+    "DOMNAME":"ZNFT_D_XFELD",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "VALPOS":1,

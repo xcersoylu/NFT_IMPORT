@@ -52,6 +52,17 @@
   [
    {
     "ROLLNAME":"ZNFT_E_FICDN",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Fictitious declaration number",
+    "REPTEXT":"Fictitious declaration number",
+    "SCRTEXT_S":"Fic.dec.no",
+    "SCRTEXT_M":"Fic.dec.num.",
+    "SCRTEXT_L":"Fictitious declaration number"
+   },
+   {
+    "ROLLNAME":"ZNFT_E_FICDN",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "AS4VERS":0,
