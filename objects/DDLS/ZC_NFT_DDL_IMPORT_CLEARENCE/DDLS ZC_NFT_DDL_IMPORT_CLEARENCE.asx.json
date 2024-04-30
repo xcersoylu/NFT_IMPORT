@@ -12,7 +12,7 @@
     "SOURCE":"@EndUserText.label: 'Çekme Ekranı'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\n@Metadata.ignorePropagatedAnnotations: true\r\ndefine root view entity ZC_NFT_DDL_IMPORT_CLEARENCE \r\nprovider contract transactional_query \r\nas projection on ZI_NFT_DDL_IMPORT_CLEARENCE\r\n{\r\n    key CompanyCode,\r\n    _POList : redirected to composition child ZC_NFT_DDL_IMPORT_PO_LIST_CLEA\r\n\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_CLEARENCE\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA\",\n\"ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_CLEARENCE\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
-    "CHGFLAG":"35",
+    "CHGFLAG":"549",
     "SOURCE_TYPE":"P",
     "SOURCE_ORIGIN":"0",
     "ABAP_LANGUAGE_VERSION":"5"

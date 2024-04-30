@@ -80,33 +80,6 @@
     "DOMVALUE_L":"3",
     "DOMVALUE_H":"",
     "APPVAL":""
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "AS4LOCAL":"N",
-    "VALPOS":4,
-    "AS4VERS":0,
-    "DOMVALUE_L":"4",
-    "DOMVALUE_H":"",
-    "APPVAL":""
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "AS4LOCAL":"N",
-    "VALPOS":5,
-    "AS4VERS":0,
-    "DOMVALUE_L":"5",
-    "DOMVALUE_H":"",
-    "APPVAL":""
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "AS4LOCAL":"N",
-    "VALPOS":6,
-    "AS4VERS":0,
-    "DOMVALUE_L":"6",
-    "DOMVALUE_H":"",
-    "APPVAL":""
    }
   ]
  },
@@ -149,39 +122,6 @@
    },
    {
     "DOMNAME":"ZNFT_D_CSRCE",
-    "DDLANGUAGE":"E",
-    "AS4LOCAL":"N",
-    "VALPOS":4,
-    "AS4VERS":0,
-    "DDTEXT":"Other Costs",
-    "DOMVAL_LD":"",
-    "DOMVAL_HD":"",
-    "DOMVALUE_L":"4"
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "DDLANGUAGE":"E",
-    "AS4LOCAL":"N",
-    "VALPOS":5,
-    "AS4VERS":0,
-    "DDTEXT":"Exchange Rate Diff. Posting",
-    "DOMVAL_LD":"",
-    "DOMVAL_HD":"",
-    "DOMVALUE_L":"5"
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "DDLANGUAGE":"E",
-    "AS4LOCAL":"N",
-    "VALPOS":6,
-    "AS4VERS":0,
-    "DDTEXT":"Advence Payment",
-    "DOMVAL_LD":"",
-    "DOMVAL_HD":"",
-    "DOMVALUE_L":"6"
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
     "DDLANGUAGE":"T",
     "AS4LOCAL":"N",
     "VALPOS":1,
@@ -212,39 +152,6 @@
     "DOMVAL_LD":"",
     "DOMVAL_HD":"",
     "DOMVALUE_L":"3"
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "DDLANGUAGE":"T",
-    "AS4LOCAL":"N",
-    "VALPOS":4,
-    "AS4VERS":0,
-    "DDTEXT":"Diğer Masraflar",
-    "DOMVAL_LD":"",
-    "DOMVAL_HD":"",
-    "DOMVALUE_L":"4"
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "DDLANGUAGE":"T",
-    "AS4LOCAL":"N",
-    "VALPOS":5,
-    "AS4VERS":0,
-    "DDTEXT":"Kur Farkı Kaydı",
-    "DOMVAL_LD":"",
-    "DOMVAL_HD":"",
-    "DOMVALUE_L":"5"
-   },
-   {
-    "DOMNAME":"ZNFT_D_CSRCE",
-    "DDLANGUAGE":"T",
-    "AS4LOCAL":"N",
-    "VALPOS":6,
-    "AS4VERS":0,
-    "DDTEXT":"Peşinat",
-    "DOMVAL_LD":"",
-    "DOMVAL_HD":"",
-    "DOMVALUE_L":"6"
    }
   ]
  },

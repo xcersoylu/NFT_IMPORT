@@ -7,9 +7,9 @@
     "SRVDNAME":"ZSD_NFT_IMPORT_VALUE_HELP",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-04-15",
-    "CHANGED_AT":"07:47:04",
-    "DT_UUID":"03C4E1D494DB1EDEBEDF8B31162E9FF0",
+    "CHANGED_ON":"2024-04-24",
+    "CHANGED_AT":"08:16:26",
+    "DT_UUID":"995523DB13041EEF80C25E300F2D4014",
     "SOURCE_ORIGIN":"0",
     "SRVD_SOURCE_TYPE":"S",
     "ABAP_LANGUAGE_VERSION":"5"
@@ -35,7 +35,7 @@
    {
     "SRVDNAME":"ZSD_NFT_IMPORT_VALUE_HELP",
     "VERSION":"A",
-    "SOURCE":"@EndUserText.label: 'Value Help'\r\ndefine service ZSD_NFT_IMPORT_VALUE_HELP {\r\n  expose ZVH_NFT_DDL_CSRCE            as CostSourceVH;\r\n  expose I_Supplier_VH                as SupplierVH;\r\n  expose ZVH_NFT_DDL_DELIVERY         as DeliveryVH;\r\n  expose I_TaxCodeValueHelp           as TaxVH;\r\n  expose ZVH_NFT_DDL_CTYPE            as CostTypeVH;\r\n  expose ZVH_NFT_DDL_CALTY            as CalculationTypeVH;\r\n  expose zvh_nft_ddl_csrce_ctype      as CostSourceCostTypeVH;\r\n  expose ZVH_NFT_DDL_COMPANYCODE      as CompanyCodeVH;\r\n  expose I_CurrencyStdVH              as CurrencyVH;\r\n  expose ZVH_NFT_DDL_COSTDOCUMENTTYPE as CostDocumentTypeVH;\r\n  expose I_PaymentBlockingReason      as PaymentBlockingReasonVH;\r\n  expose ZVH_NFT_DDL_VORGANG          as VorgangVH;\r\n}"
+    "SOURCE":"@EndUserText.label: 'Value Help'\r\ndefine service ZSD_NFT_IMPORT_VALUE_HELP {\r\n  expose ZVH_NFT_DDL_CSRCE            as CostSourceVH;\r\n  expose I_Supplier_VH                as SupplierVH;\r\n  expose ZVH_NFT_DDL_DELIVERY         as DeliveryVH;\r\n  expose I_TaxCodeValueHelp           as TaxVH;\r\n  expose ZVH_NFT_DDL_CTYPE            as CostTypeVH;\r\n  expose ZVH_NFT_DDL_CALTY            as CalculationTypeVH;\r\n  expose zvh_nft_ddl_csrce_ctype      as CostSourceCostTypeVH;\r\n  expose ZVH_NFT_DDL_COMPANYCODE      as CompanyCodeVH;\r\n  expose I_CurrencyStdVH              as CurrencyVH;\r\n  expose ZVH_NFT_DDL_COSTDOCUMENTTYPE as CostDocumentTypeVH;\r\n  expose I_PaymentBlockingReason      as PaymentBlockingReasonVH;\r\n  expose ZVH_NFT_DDL_VORGANG          as VorgangVH;\r\n  expose ZVH_NFT_DDL_TAXCODE          as TaxCodeVH;\r\n}"
    }
   ]
  },
@@ -168,6 +168,15 @@
    {
     "SRVDNAME":"ZSD_NFT_IMPORT_VALUE_HELP",
     "SERVICE":"ZSD_NFT_IMPORT_VALUE_HELP",
+    "EXPOSED_ARTIFACT":"ZVH_NFT_DDL_TAXCODE",
+    "EXPOSED_ARTIFACT_TYPE":"E",
+    "EXPOSED_ALIAS":"TAXCODEVH",
+    "EXPOSED_ALIAS_RAW":"TaxCodeVH",
+    "INCL_SERVICE":""
+   },
+   {
+    "SRVDNAME":"ZSD_NFT_IMPORT_VALUE_HELP",
+    "SERVICE":"ZSD_NFT_IMPORT_VALUE_HELP",
     "EXPOSED_ARTIFACT":"ZVH_NFT_DDL_VORGANG",
     "EXPOSED_ARTIFACT_TYPE":"E",
     "EXPOSED_ALIAS":"VORGANGVH",
@@ -185,8 +194,8 @@
     "SERVICE":"ZSD_NFT_IMPORT_VALUE_HELP",
     "SERVICE_RAW":"ZSD_NFT_IMPORT_VALUE_HELP",
     "SOURCE_TYPE":"S",
-    "DT_UUID":"03C4E1D494DB1EDEBEDF8B31162E9FF0",
-    "RT_HASH":"9D680A80D84EE8D067868C6F5E6EA0E12E9B7FB7",
+    "DT_UUID":"995523DB13041EEF80C25E300F2D4014",
+    "RT_HASH":"53235619159E0F29573E02D0CD20C954CC7873C1",
     "GEN_VERSION":"0"
    }
   ]

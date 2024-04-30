@@ -60,7 +60,7 @@
                                                                  deliverydocument      = wa_glitem2-deliverydocument
                                                                  deliverydocumentitem  = wa_glitem2-deliverydocumentitem
                                                                  documentcurrenyamount = wa_glitem2-documentcurrenyamount
-                                                                 documentcurrency      = wa_glitem2-documentcurrenyamount
+                                                                 documentcurrency      = wa_glitem2-documentcurrency
                                                                  accountnumber         = wa_glitem2-glaccount
                                                                  taxcode               = wa_glitem2-taxcode
                                                                  taxamount             = wa_glitem2-taxamount

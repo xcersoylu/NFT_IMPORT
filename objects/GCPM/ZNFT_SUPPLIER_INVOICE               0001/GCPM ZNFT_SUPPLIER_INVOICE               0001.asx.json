@@ -1,0 +1,49 @@
+[
+ {
+  "table":"/IWBEP/I_CP_MOD",
+  "data":
+  [
+   {
+    "PROXY_MODEL_ID":"ZNFT_SUPPLIER_INVOICE",
+    "VERSION":1,
+    "MPC_NAME":"ZCL_NFT_SUPPLIER_INVOICE",
+    "DESCRIPTION":"Satıcı Faturası",
+    "CREATED_BY":"SAP_CUSTOMER",
+    "CREATED_AT":"+020240429121851",
+    "CHANGED_BY":"SAP_CUSTOMER",
+    "CHANGED_AT":"+020240429121851",
+    "ABAP_LANGUAGE_VERSION":"5"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"GCPM",
+    "OBJ_NAME":"ZNFT_SUPPLIER_INVOICE               0001",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"SAP_CUSTOMER",
+    "SRCDEP":"",
+    "DEVCLASS":"ZNFT_IMPORT0",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" L",
+    "MASTERLANG":"T",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2024-04-29",
+    "CHECK_DATE":"2024-04-29",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

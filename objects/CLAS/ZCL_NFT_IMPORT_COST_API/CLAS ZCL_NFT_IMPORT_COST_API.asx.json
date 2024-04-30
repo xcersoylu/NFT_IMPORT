@@ -329,7 +329,7 @@
     "EVTDECLTYP":0,
     "TYPDUMMY":"",
     "TYPTYPE":1,
-    "TYPE":"ZNFT_TT_COST_ITEMS",
+    "TYPE":"ZNFT_S_IMPORT_COST_API_RES",
     "TABLEOF":"",
     "SRCROW1":0,
     "SRCCOLUMN1":0,

@@ -47,6 +47,7 @@
           rv_delivery = lv_json_temp(lv_offset_2).
           rv_delivery = |{ rv_delivery ALPHA = IN }|.
         ELSE.
+          ev_error = lv_response.
         ENDIF.
       CATCH cx_http_dest_provider_error cx_web_http_client_error cx_web_message_error.
     ENDTRY.
