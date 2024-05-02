@@ -7,9 +7,9 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-04-18",
-    "CHANGED_AT":"07:28:34",
-    "UUID":"03C4E1D494DB1EDEBFAAA86A7B9B7FF8",
+    "CHANGED_ON":"2024-05-02",
+    "CHANGED_AT":"12:06:19",
+    "UUID":"995523DB13041EEF828F8C52BB078026",
     "ABAP_LANGUAGE_VERSION":"5"
    }
   ]
@@ -34,7 +34,7 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
     "VERSION":"A",
     "UUID":"",
-    "SOURCE":"@Metadata.layer: #CORE\r\n@UI:{\r\nheaderInfo:{\r\n                typeNamePlural: 'Dosya Kapama',\r\n                typeName: 'Dosya Kapama',\r\n                title:{ type: #STANDARD, label: 'Dosya Kapama' , value: 'DeliveryDocument'  }\r\n           }\r\n}\r\nannotate entity ZC_NFT_DDL_IMPORT_CLEAR_BLNC_H\r\n    with \r\n{\r\n  @UI.facet: [  { id:              'Header',\r\n                  purpose:         #STANDARD,\r\n                  type:            #LINEITEM_REFERENCE,\r\n                  label:           'Dosya Kapama',\r\n                  position:        10,\r\n                  targetElement:   '_item' }\r\n                  ]\r\n    @UI.lineItem: [{ position: 10 }]\r\n    DeliveryDocument;\r\n    @UI.lineItem: [{ position: 20 }]\r\n    Supplier;\r\n    @UI.lineItem: [{ position: 30 }]\r\n    suppliername;    \r\n    @UI.lineItem: [{ position: 40 }]\r\n    CreationDate;\r\n    @UI.lineItem: [{ position: 50 }]\r\n    DocumentDate;\r\n    \r\n}"
+    "SOURCE":"@Metadata.layer: #CORE\r\n@UI:{\r\nheaderInfo:{\r\n                typeNamePlural: 'Dosya Kapama',\r\n                typeName: 'Dosya Kapama',\r\n                title:{ type: #STANDARD, label: 'Dosya Kapama' , value: 'DeliveryDocument'  }\r\n           }\r\n}\r\nannotate entity ZC_NFT_DDL_IMPORT_CLEAR_BLNC_H\r\n    with \r\n{\r\n  @UI.facet: [  { id:              'Header',\r\n                  purpose:         #STANDARD,\r\n                  type:            #LINEITEM_REFERENCE,\r\n                  label:           'Dosya Kapama',\r\n                  position:        10,\r\n                  targetElement:   '_item' }\r\n                  ]\r\n    @UI.lineItem: [{ position: 10 }]\r\n    DeliveryDocument;\r\n    @UI.lineItem: [{ position: 20 }]\r\n    documenttype;\r\n    @UI.lineItem: [{ position: 30 }]\r\n    DocumentTypeText; \r\n    @UI.lineItem: [{ position: 40 }]     \r\n    CreationDate;  \r\n    @UI.lineItem: [{ position: 50 }]\r\n    Supplier;\r\n    @UI.lineItem: [{ position: 60 }]\r\n    SupplierName;               \r\n}"
    }
   ]
  },
@@ -135,24 +135,31 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
-    "ELEMENT":"DOCUMENTDATE",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"50"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
-    "ELEMENT":"SUPPLIER",
+    "ELEMENT":"DOCUMENTTYPE",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"20"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
-    "ELEMENT":"SUPPLIERNAME",
+    "ELEMENT":"DOCUMENTTYPETEXT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"30"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
+    "ELEMENT":"SUPPLIER",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"50"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
+    "ELEMENT":"SUPPLIERNAME",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"60"
    }
   ]
  },
@@ -199,8 +206,8 @@
     "EXTENDED_ARTIFACT":"ZC_NFT_DDL_IMPORT_CLEAR_BLNC_H",
     "VARIANT":"",
     "LAYER":1500,
-    "DT_UUID":"03C4E1D494DB1EDEBFAAA86A7B9B7FF8",
-    "RT_HASH":"A521F2AB610047093ECFE4D9B48949730021958C",
+    "DT_UUID":"995523DB13041EEF828F8C52BB078026",
+    "RT_HASH":"D914DB96DB9C2D8011B8D9728B5F7E6A7ABC5D72",
     "GEN_VERSION":"0"
    }
   ]

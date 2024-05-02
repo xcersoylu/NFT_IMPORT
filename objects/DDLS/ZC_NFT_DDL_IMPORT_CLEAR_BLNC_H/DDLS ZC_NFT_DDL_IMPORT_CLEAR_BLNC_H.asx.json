@@ -9,10 +9,10 @@
     "AS4USER":"SAP_CUSTOMER",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@EndUserText.label: 'Dosya Kapama Verileri'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\n@Metadata.ignorePropagatedAnnotations: true\r\ndefine root view entity ZC_NFT_DDL_IMPORT_CLEAR_BLNC_H \r\nprovider contract transactional_query\r\nas projection on ZI_NFT_DDL_IMPORT_CLEAR_BLNC_H\r\n{\r\n    key DeliveryDocument,\r\n    Supplier,\r\n    SupplierName,\r\n    CreationDate,\r\n    DocumentDate,\r\n    /* Associations */\r\n    _item : redirected to composition child ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_CLEAR_BLNC_H\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I\",\n\"ZI_NFT_DDL_IMPORT_CLEAR_BLNC_I\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_CLEAR_BLNC_H\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@EndUserText.label: 'Dosya Kapama Verileri'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\n@Metadata.ignorePropagatedAnnotations: true\r\ndefine root view entity ZC_NFT_DDL_IMPORT_CLEAR_BLNC_H \r\nprovider contract transactional_query\r\nas projection on ZI_NFT_DDL_IMPORT_CLEAR_BLNC_H\r\n{\r\n    key DeliveryDocument,\r\n    Supplier,\r\n    SupplierName,\r\n    CreationDate,\r\n    documenttype,\r\n    DocumentTypeText,\r\n    _item : redirected to composition child ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_CLEAR_BLNC_H\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I\",\n\"ZI_NFT_DDL_IMPORT_CLEAR_BLNC_I\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_CLEAR_BLNC_H\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
-    "CHGFLAG":"54",
+    "CHGFLAG":"35",
     "SOURCE_TYPE":"P",
     "SOURCE_ORIGIN":"0",
     "ABAP_LANGUAGE_VERSION":"5"

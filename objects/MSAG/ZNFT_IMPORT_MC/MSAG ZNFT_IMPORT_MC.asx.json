@@ -128,6 +128,132 @@
     "DOKLRELES":"",
     "DOKLDATE":"0000-00-00",
     "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC010",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC011",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC012",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC013",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC014",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC015",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC016",
+    "LANGU":"D",
+    "TYP":"E",
+    "DOKVERSION":1,
+    "DOKSTATE":"N",
+    "DOKFORM":"S_DOCU_SHOW",
+    "DOKSTYLE":"S_DOCUS1",
+    "DOKFUSER":"SAP_CUSTOMER",
+    "DOKFRELES":"",
+    "DOKFDATE":"0000-00-00",
+    "DOKFTIME":"00:00:00",
+    "DOKLUSER":"SAP_CUSTOMER",
+    "DOKLRELES":"",
+    "DOKLDATE":"0000-00-00",
+    "DOKLTIME":"00:00:00"
    }
   ]
  },
@@ -204,6 +330,83 @@
    {
     "ID":"NA",
     "OBJECT":"ZNFT_IMPORT_MC009",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC010",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC011",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC012",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC013",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC014",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC015",
+    "LANGU":"D",
+    "TYP":"E",
+    "VERSION":1,
+    "MASTERLANG":"X",
+    "TXTLINES":0,
+    "DOKSTATE":"N",
+    "SELFDEF":"3"
+   },
+   {
+    "ID":"NA",
+    "OBJECT":"ZNFT_IMPORT_MC016",
     "LANGU":"D",
     "TYP":"E",
     "VERSION":1,
@@ -295,6 +498,48 @@
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"009",
     "TEXT":"Hatalı belge."
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"010",
+    "TEXT":"&1 nolu SAS onaylanmamıştır."
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"011",
+    "TEXT":"&1-&2 nolu SAS kaleminde silme göstergesi mevcut"
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"012",
+    "TEXT":"&1 nolu SAS tamamlanmamıştır"
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"013",
+    "TEXT":"&1-&2 nolu SAS kaleminde son teslimat göstergesi mevcut"
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"014",
+    "TEXT":"&1-&2 nolu SAS kalemi MG tml.fatura kntr. göstergesi mevcut"
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"015",
+    "TEXT":"Hatalı teyit denetim anahtarı (&1-&2)"
+   },
+   {
+    "SPRSL":"T",
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"016",
+    "TEXT":"&1 nolu belge yaratıldı."
    }
   ]
  },
@@ -333,70 +578,119 @@
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"000",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"001",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"002",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"003",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"004",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"005",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"006",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"007",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"008",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    },
    {
     "ARBGB":"ZNFT_IMPORT_MC",
     "MSGNR":"009",
     "NAME":"SAP_CUSTOMER",
-    "DATUM":"2024-04-30",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"010",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"011",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"012",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"013",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"014",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"015",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZNFT_IMPORT_MC",
+    "MSGNR":"016",
+    "NAME":"SAP_CUSTOMER",
+    "DATUM":"2024-05-02",
     "SELFDEF":"3"
    }
   ]

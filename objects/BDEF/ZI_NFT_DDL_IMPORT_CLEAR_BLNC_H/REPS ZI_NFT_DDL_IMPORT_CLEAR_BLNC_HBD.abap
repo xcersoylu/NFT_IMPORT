@@ -17,6 +17,6 @@ authorization dependent by _header
 {
   field ( readonly ) deliverydocument , deliverydocumentitem, accountingdocument , companycode , fiscalyear , accountingdocumentitem ;
   action ( features : instance ) ContinuePopup parameter ZI_NFT_DDL_IMPORT_BLNC_popup result [1] $self;
-  internal action CreateSupplierInvoice;
+//  internal action CreateSupplierInvoice;
   association _header;
 }

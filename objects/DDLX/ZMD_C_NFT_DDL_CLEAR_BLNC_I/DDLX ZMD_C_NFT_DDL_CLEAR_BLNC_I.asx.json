@@ -7,9 +7,9 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-04-25",
-    "CHANGED_AT":"08:54:13",
-    "UUID":"995523DB13041EEF80DC2C6573B2C019",
+    "CHANGED_ON":"2024-05-02",
+    "CHANGED_AT":"13:20:21",
+    "UUID":"995523DB13041EEF8290D72F99B18026",
     "ABAP_LANGUAGE_VERSION":"5"
    }
   ]
@@ -34,7 +34,7 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
     "VERSION":"A",
     "UUID":"",
-    "SOURCE":"@Metadata.layer: #CORE\r\nannotate entity ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I with\r\n{\r\n  @UI: { lineItem: [ { position: 10, importance: #HIGH },\r\n                           { type: #FOR_ACTION,\r\n                             dataAction: 'ContinuePopup',\r\n                             label: 'Devam',\r\n                             invocationGrouping : #CHANGE_SET } ] }\r\n  @UI.identification: [{ position: 10 }]\r\n  deliverydocument;\r\n  @UI.lineItem: [{ position: 20 }]\r\n  deliverydocumentitem;\r\n  @UI.lineItem: [{ position: 30 }]\r\n  accountingdocument;\r\n  @UI.lineItem: [{ position: 40 }]\r\n  companycode;\r\n  @UI.lineItem: [{ position: 50 }]\r\n  fiscalyear;\r\n  @UI.lineItem: [{ position: 60 }]\r\n  accountingdocumentitem;\r\n  @UI.lineItem: [{ position: 70 }]\r\n  DocumentDate;\r\n  @UI.lineItem: [{ position: 80 }]\r\n  PostingDate;\r\n  @UI.lineItem: [{ position: 90 }]\r\n  ReferenceSDDocument;\r\n  @UI.lineItem: [{ position: 100 }]\r\n  ReferenceSDDocumentItem;\r\n  @UI.lineItem: [{ position: 110 }]\r\n  costtype;\r\n  @UI.lineItem: [{ position: 120 }]\r\n  Description;\r\n\r\n}"
+    "SOURCE":"@Metadata.layer: #CORE\r\nannotate entity ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I with\r\n{\r\n  @UI: { lineItem: [ { position: 10, importance: #HIGH },\r\n                           { type: #FOR_ACTION,\r\n                             dataAction: 'ContinuePopup',\r\n                             label: 'Devam',\r\n                             invocationGrouping : #CHANGE_SET } ] }\r\n  @UI.identification: [{ position: 10 }]\r\n  accountingdocument;\r\n  @UI.lineItem: [{ position: 30 }]\r\n  companycode;\r\n  @UI.lineItem: [{ position: 40 }]\r\n  fiscalyear;\r\n  @UI.lineItem: [{ position: 50 }]\r\n  accountingdocumentitem;\r\n    @UI.lineItem: [{ position: 60 }]\r\n  DocumentDate;\r\n  @UI.lineItem: [{ position: 70 }]\r\n  PostingDate;\r\n  @UI.lineItem: [{ position: 80 }]\r\n  costtype;\r\n  @UI.lineItem: [{ position: 90 }]\r\n  Description;  \r\n  @UI.lineItem: [{ position: 100 }]\r\n  deliverydocument;\r\n  @UI.lineItem: [{ position: 110 }]\r\n  deliverydocumentitem;\r\n  @UI.lineItem: [{ position: 120 }]\r\n  ReferenceSDDocument;\r\n  @UI.lineItem: [{ position: 130 }]\r\n  ReferenceSDDocumentItem;\r\n//  @UI.lineItem: [{ position: 140 }]\r\n//  Supplier;\r\n  @UI.lineItem: [{ position: 150 }]\r\n  Plant;  \r\n  @UI.lineItem: [{ position: 160 }]\r\n  product;\r\n  @UI.lineItem: [{ position: 170 }]\r\n  ProductName;  \r\n  @UI.hidden: true\r\n  accountnumber;\r\n  @UI.lineItem: [{ position: 180 }]\r\n  documentcurrenyamount;\r\n  @UI.lineItem: [{ position: 190 }]\r\n  documentcurreny;\r\n  @UI.lineItem: [{ position: 200 }]\r\n  DeliveryQuantity;\r\n  @UI.lineItem: [{ position: 210 }]\r\n  DeliveryQuantityUnit;\r\n\r\n}"
    }
   ]
  },
@@ -45,128 +45,184 @@
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
     "ELEMENT":"ACCOUNTINGDOCUMENT",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"30"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"ACCOUNTINGDOCUMENTITEM",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"60"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"COMPANYCODE",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"40"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"COSTTYPE",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"110"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
     "NAME":"UI.IDENTIFICATION$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"10"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$1$.IMPORTANCE",
     "ELEMENT_TYPE":"S",
     "VALUE":"#HIGH"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"10"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$2$.DATAACTION",
     "ELEMENT_TYPE":"S",
     "VALUE":"'ContinuePopup'"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$2$.INVOCATIONGROUPING",
     "ELEMENT_TYPE":"S",
     "VALUE":"#CHANGE_SET"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$2$.LABEL",
     "ELEMENT_TYPE":"S",
     "VALUE":"'Devam'"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$2$.TYPE",
     "ELEMENT_TYPE":"S",
     "VALUE":"#FOR_ACTION"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DELIVERYDOCUMENTITEM",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"20"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DESCRIPTION",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"120"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"DOCUMENTDATE",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"70"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"FISCALYEAR",
+    "ELEMENT":"ACCOUNTINGDOCUMENTITEM",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"50"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"POSTINGDATE",
+    "ELEMENT":"ACCOUNTNUMBER",
+    "NAME":"UI.HIDDEN",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"true"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"30"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"COSTTYPE",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"80"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
-    "ELEMENT":"REFERENCESDDOCUMENT",
+    "ELEMENT":"DELIVERYDOCUMENT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"100"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DELIVERYDOCUMENTITEM",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"110"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DELIVERYQUANTITY",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"200"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DELIVERYQUANTITYUNIT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"210"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DESCRIPTION",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"90"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DOCUMENTCURRENY",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"190"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DOCUMENTCURRENYAMOUNT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"180"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"DOCUMENTDATE",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"60"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"FISCALYEAR",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"40"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"PLANT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"150"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"POSTINGDATE",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"70"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"PRODUCT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"160"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"PRODUCTNAME",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"170"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
+    "ELEMENT":"REFERENCESDDOCUMENT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"120"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
     "ELEMENT":"REFERENCESDDOCUMENTITEM",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"100"
+    "VALUE":"130"
    }
   ]
  },
@@ -177,7 +233,7 @@
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_I",
     "DDLANGUAGE":"T",
-    "ELEMENT":"DELIVERYDOCUMENT",
+    "ELEMENT":"ACCOUNTINGDOCUMENT",
     "NAME":"UI.LINEITEM$2$.LABEL",
     "TEXT":"Devam"
    }
@@ -192,8 +248,8 @@
     "EXTENDED_ARTIFACT":"ZC_NFT_DDL_IMPORT_CLEAR_BLNC_I",
     "VARIANT":"",
     "LAYER":1500,
-    "DT_UUID":"995523DB13041EEF80DC2C6573B2C019",
-    "RT_HASH":"F696FD7EB6BEA2B0B7A2430A68718E8BCB3458FC",
+    "DT_UUID":"995523DB13041EEF8290D72F99B18026",
+    "RT_HASH":"18E1D75D553524A836DBA0CF767A371BE1D32F7B",
     "GEN_VERSION":"0"
    }
   ]

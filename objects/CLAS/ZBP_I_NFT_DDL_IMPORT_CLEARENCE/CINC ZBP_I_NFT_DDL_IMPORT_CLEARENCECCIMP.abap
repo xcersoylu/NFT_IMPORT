@@ -77,6 +77,13 @@ CLASS lhc_zi_nft_ddl_import_po_list_ IMPLEMENTATION.
       lv_json = |{ lv_json } "results" : [ |.
       DATA(lv_line_count) = lines( lt_selected_lines ).
       LOOP AT lt_selected_lines INTO DATA(ls_line).
+        IF ls_line-purchaseorderquantityunit = 'ST'.
+*          IF  sy-langu = 'T'.
+*            ls_line-purchaseorderquantityunit = 'ADT'.
+*          ELSEIF sy-langu = 'E'.
+            ls_line-purchaseorderquantityunit = 'PC'.
+*          ENDIF.
+        ENDIF.
         lv_line_count -= 1.
         lv_result = |{ lc_curly_braces_left }|.
         READ TABLE lt_cus INTO DATA(ls_cus) WITH KEY deliverydocument = ls_line-deliverydocument

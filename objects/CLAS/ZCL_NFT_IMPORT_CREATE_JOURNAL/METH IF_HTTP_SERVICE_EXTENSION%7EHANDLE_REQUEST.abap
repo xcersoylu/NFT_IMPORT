@@ -8,7 +8,7 @@
     APPEND INITIAL LINE TO lt_je ASSIGNING FIELD-SYMBOL(<fs_je>).
     TRY.
         <fs_je>-%cid = to_upper( cl_uuid_factory=>create_system_uuid( )->create_uuid_x16( ) ).
-      CATCH Cx_uuid_error INTO DATA(lx_error).
+      CATCH cx_uuid_error INTO DATA(lx_error).
     ENDTRY.
 
     <fs_je>-%param = VALUE #( companycode                  = ms_request-header-companycode
@@ -19,11 +19,11 @@
                               documentdate                 = ms_request-header-documentdate
                               postingdate                  = ms_request-header-postingdate
                               accountingdocumentheadertext = ms_request-header-accountingdocumentheadertext
-                              TaxDeterminationDate         = ms_request-header-taxdeterminationdate
-                              ExchangeRateDate             = ms_request-header-exchangeratedate
-                               _APItems = VALUE #( FOR wa_apitem IN ms_Request-apitem ( CORRESPONDING #( wa_apitem MAPPING _currencyamount = currencyamount ) ) )
+                              taxdeterminationdate         = ms_request-header-taxdeterminationdate
+                              exchangeratedate             = ms_request-header-exchangeratedate
+                               _apitems = VALUE #( FOR wa_apitem IN ms_request-apitem ( CORRESPONDING #( wa_apitem MAPPING _currencyamount = currencyamount ) ) )
                                _glitems = VALUE #( FOR wa_glitem IN ms_request-glitem ( CORRESPONDING #( wa_glitem MAPPING _currencyamount = currencyamount ) ) )
-                               _TaxItems = VALUE #( FOR wa_taxitem IN ms_request-taxitem ( CORRESPONDING #( wa_taxitem MAPPING _currencyamount = currencyamount ) ) )
+                               _taxitems = VALUE #( FOR wa_taxitem IN ms_request-taxitem ( CORRESPONDING #( wa_taxitem MAPPING _currencyamount = currencyamount ) ) )
                             ).
     MODIFY ENTITIES OF i_journalentrytp
      ENTITY journalentry
@@ -42,7 +42,7 @@
       COMMIT ENTITIES END.
       IF ls_commit_failed IS INITIAL.
         response->set_status('200').
-        ms_response-accountingdocument = VALUE #( ls_commit_reported-journalentry[ 1 ]-AccountingDocument OPTIONAL ).
+        ms_response-accountingdocument = VALUE #( ls_commit_reported-journalentry[ 1 ]-accountingdocument OPTIONAL ).
         ls_r001 = VALUE #( client                = sy-mandt
                            companycode           = ms_request-header-companycode
                            accountingdocument    = ms_response-accountingdocument
@@ -56,19 +56,20 @@
                                                                  companycode           = ms_request-header-companycode
                                                                  accountingdocument    = ms_response-accountingdocument
                                                                  fiscalyear            = ms_request-header-documentdate(4)
+                                                                 accountingdocumentitem = wa_glitem2-glaccountlineitem
                                                                  costtype              = wa_glitem2-costtype
                                                                  deliverydocument      = wa_glitem2-deliverydocument
                                                                  deliverydocumentitem  = wa_glitem2-deliverydocumentitem
-                                                                 documentcurrenyamount = wa_glitem2-documentcurrenyamount
-                                                                 documentcurrency      = wa_glitem2-documentcurrency
+                                                                 documentcurrenyamount = wa_glitem2-currencyamount[ 1 ]-journalentryitemamount
+                                                                 documentcurrency      = wa_glitem2-currencyamount[ 1 ]-currency
                                                                  accountnumber         = wa_glitem2-glaccount
                                                                  taxcode               = wa_glitem2-taxcode
                                                                  taxamount             = wa_glitem2-taxamount
                                                                  debitcreditindicator  = wa_glitem2-debitcreditindicator
                                                                  ) ).
-        modify znft_t_r001 FROM @ls_r001.
-        modify znft_t_r002 FROM TABLE @lt_r002.
-        commit WORK AND WAIT.
+        MODIFY znft_t_r001 FROM @ls_r001.
+        MODIFY znft_t_r002 FROM TABLE @lt_r002.
+        COMMIT WORK AND WAIT.
       ELSE.
 
       ENDIF.
