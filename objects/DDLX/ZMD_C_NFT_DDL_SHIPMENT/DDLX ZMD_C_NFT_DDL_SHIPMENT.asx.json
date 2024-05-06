@@ -127,6 +127,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIPMENT",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Company Code"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIPMENT",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Company Code"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIPMENT",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Company Code"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIPMENT",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Shipment Document"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIPMENT",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

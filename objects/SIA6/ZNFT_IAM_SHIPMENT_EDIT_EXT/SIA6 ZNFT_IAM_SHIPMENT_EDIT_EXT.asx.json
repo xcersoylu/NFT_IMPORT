@@ -4,7 +4,7 @@
   "data":
   [
    {
-    "APP_ID":"ZNFT_IAM_EXPENSE_EXT",
+    "APP_ID":"ZNFT_IAM_SHIPMENT_EDIT_EXT",
     "APP_TYPE":"EXT",
     "ABAP_LANGUAGE_VERSION":"5",
     "REL_FOR_CUST_CAT_EXT":"",
@@ -15,11 +15,24 @@
     "BSP_APPL_NAME":"",
     "EXT_OBJECT_ID":"",
     "TCODE":"",
-    "UI_APP_ID":"ZNFT_IMPORT_UI5R",
+    "UI_APP_ID":"ZNFT_SHIP_EDIT_UI5R",
     "CREATE_USER":"SAP_CUSTOMER",
-    "CREATE_TIMESTAMP":"+020240205150859",
+    "CREATE_TIMESTAMP":"+020240506083615",
     "CHANGE_USER":"SAP_CUSTOMER",
-    "CHANGE_TIMESTAMP":"+020240205150930"
+    "CHANGE_TIMESTAMP":"+020240506083839"
+   }
+  ]
+ },
+ {
+  "table":"APS_IAM_W_APPSRV",
+  "data":
+  [
+   {
+    "APP_ID":"ZNFT_IAM_SHIPMENT_EDIT_EXT",
+    "SRVC_NAME":"E7CDFECE7F76A86D249290C08AF0B5",
+    "SRVC_TYPE":"HT",
+    "UIAD_SRC":"ZNFT_SHIP_EDIT_UI5R",
+    "ACTIVE":""
    }
   ]
  },
@@ -28,9 +41,9 @@
   "data":
   [
    {
-    "LANGU":"E",
-    "APP_ID":"ZNFT_IAM_EXPENSE_EXT",
-    "TEXT":"İthalat Masraf"
+    "LANGU":"T",
+    "APP_ID":"ZNFT_IAM_SHIPMENT_EDIT_EXT",
+    "TEXT":"Yükleme Güncelleme Ekranı"
    }
   ]
  },
@@ -41,7 +54,7 @@
    {
     "PGMID":"R3TR",
     "OBJECT":"SIA6",
-    "OBJ_NAME":"ZNFT_IAM_EXPENSE_EXT",
+    "OBJ_NAME":"ZNFT_IAM_SHIPMENT_EDIT_EXT",
     "KORRNUM":"",
     "SRCSYSTEM":"...",
     "AUTHOR":"SAP_CUSTOMER",
@@ -50,7 +63,7 @@
     "GENFLAG":"",
     "EDTFLAG":"",
     "CPROJECT":" L",
-    "MASTERLANG":"E",
+    "MASTERLANG":"T",
     "VERSID":"",
     "PAKNOCHECK":"",
     "OBJSTABLTY":"",
@@ -58,8 +71,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2024-02-05",
-    "CHECK_DATE":"2024-02-05",
+    "CREATED_ON":"2024-05-06",
+    "CHECK_DATE":"2024-05-06",
     "CHECK_CFG":""
    }
   ]

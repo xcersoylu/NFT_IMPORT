@@ -260,6 +260,41 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_T004",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Cost Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T004",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Cost Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T004",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Cost Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T004",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"CTYPE",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Cost Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T004",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"CTYPE",
+    "NAME":"UI.FACET$2$.LABEL",
+    "TEXT":"Cost Type Text"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T004",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

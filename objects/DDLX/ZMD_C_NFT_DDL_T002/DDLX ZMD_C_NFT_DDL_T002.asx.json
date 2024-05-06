@@ -274,6 +274,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_T002",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Delivery Document Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T002",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Delivery Document Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T002",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Delivery Document Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T002",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"BSART",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Delivery Document Type"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T002",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

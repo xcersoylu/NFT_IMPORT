@@ -281,6 +281,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_T007",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Company Code Parameters"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T007",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Company Code Parameters"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T007",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Company Code Parameters"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T007",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"BUKRS",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Company Code Parameters"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T007",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

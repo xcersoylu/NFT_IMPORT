@@ -4,6 +4,11 @@
   "data":
   [
    {
+    "LANGU":"E",
+    "BU_CATALOG_ID":"ZNFT_IMPORT",
+    "TEXT":"Import Business Catalog"
+   },
+   {
     "LANGU":"T",
     "BU_CATALOG_ID":"ZNFT_IMPORT",
     "TEXT":"İthalat Business Katalog"

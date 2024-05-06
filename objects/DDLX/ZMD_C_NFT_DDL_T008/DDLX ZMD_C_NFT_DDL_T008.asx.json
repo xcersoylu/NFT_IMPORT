@@ -246,6 +246,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_T008",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Cost Distribution Calculation"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T008",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Cost Distribution Calculation"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T008",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Cost Distribution Calculation"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T008",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Cost Distribution Calculation"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T008",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

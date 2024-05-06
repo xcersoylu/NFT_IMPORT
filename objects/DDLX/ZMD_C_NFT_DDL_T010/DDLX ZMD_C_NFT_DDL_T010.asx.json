@@ -337,6 +337,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_T010",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Import Clearing Account"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T010",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Import Clearing Account"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T010",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Import Clearing Account"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T010",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"BUKRS",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Import Clearing Account"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_T010",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

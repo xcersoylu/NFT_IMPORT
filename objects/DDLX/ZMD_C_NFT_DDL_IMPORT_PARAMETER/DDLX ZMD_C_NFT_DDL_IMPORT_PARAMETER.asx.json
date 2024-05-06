@@ -232,6 +232,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_IMPORT_PARAMETER",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Parameter Table"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_IMPORT_PARAMETER",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Parameter Table"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_IMPORT_PARAMETER",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Parameter Table"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_IMPORT_PARAMETER",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"PARAMETERNAME",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Parametric Values"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_IMPORT_PARAMETER",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

@@ -127,6 +127,34 @@
   [
    {
     "DDLXNAME":"ZC_NFT_DDL_IMPORT_CLEARENCE",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Company Code"
+   },
+   {
+    "DDLXNAME":"ZC_NFT_DDL_IMPORT_CLEARENCE",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Company Code"
+   },
+   {
+    "DDLXNAME":"ZC_NFT_DDL_IMPORT_CLEARENCE",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Company Code"
+   },
+   {
+    "DDLXNAME":"ZC_NFT_DDL_IMPORT_CLEARENCE",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Clearence Document"
+   },
+   {
+    "DDLXNAME":"ZC_NFT_DDL_IMPORT_CLEARENCE",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",

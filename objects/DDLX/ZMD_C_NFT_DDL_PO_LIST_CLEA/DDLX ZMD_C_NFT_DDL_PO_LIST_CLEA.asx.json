@@ -351,6 +351,48 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"CLEARENCEQUANTITY",
+    "NAME":"ENDUSERTEXT.LABEL",
+    "TEXT":"Clearence Quantity"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"CLEARENCEQUANTITY_MAX",
+    "NAME":"ENDUSERTEXT.LABEL",
+    "TEXT":"Clearence Quantity"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.LINEITEM$2$.LABEL",
+    "TEXT":"Continue"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"DELIVERYDOCUMENT",
+    "NAME":"ENDUSERTEXT.LABEL",
+    "TEXT":"Shipment Document"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"MATERIALTEXT",
+    "NAME":"ENDUSERTEXT.LABEL",
+    "TEXT":"Material Text"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"SHIPQUANTITY",
+    "NAME":"ENDUSERTEXT.LABEL",
+    "TEXT":"Shipment Quantity"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "DDLANGUAGE":"T",
     "ELEMENT":"CLEARENCEQUANTITY",
     "NAME":"ENDUSERTEXT.LABEL",

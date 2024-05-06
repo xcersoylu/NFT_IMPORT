@@ -169,6 +169,34 @@
   [
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TITLE.LABEL",
+    "TEXT":"Clearing Balance"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAME",
+    "TEXT":"Clearing Balance"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"",
+    "NAME":"UI.HEADERINFO.TYPENAMEPLURAL",
+    "TEXT":"Clearing Balance"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
+    "DDLANGUAGE":"E",
+    "ELEMENT":"DELIVERYDOCUMENT",
+    "NAME":"UI.FACET$1$.LABEL",
+    "TEXT":"Clearing Balance"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_CLEAR_BLNC_H",
     "DDLANGUAGE":"T",
     "ELEMENT":"",
     "NAME":"UI.HEADERINFO.TITLE.LABEL",
