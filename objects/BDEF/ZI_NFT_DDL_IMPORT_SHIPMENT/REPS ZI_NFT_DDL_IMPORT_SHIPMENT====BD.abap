@@ -6,9 +6,7 @@ with unmanaged save
 lock master
 authorization master ( instance )
 {
-  //  create;
   update;
-  //  delete;
   field ( readonly ) CompanyCode;
   association _POList { create; }
   association _DeliveryCustomFields { create; }
@@ -23,7 +21,7 @@ authorization dependent by _Shipment
   update;
   field ( readonly ) CompanyCode, PurchaseOrder, PurchaseOrderItem, Plant, StorageLocation,
                      Material, MaterialText, MaterialGroup, MaterialGroupText, shipquantity_max,
-                     Batch , OrderQuantity , PurchaseOrderQuantityUnit;
+                     Batch , OrderQuantity , PurchaseOrderQuantityUnit,supplier,suppliername;
   static function DeleteQuantityTable result [1] $self;
   action ( features : instance ) DeliveryPopup parameter ZI_NFT_DDL_IMPORT_DLV_POPUP result [1] $self;  // { default function GetDefaultsForDeliveryPopup ; }
   association _Shipment;
@@ -39,10 +37,10 @@ authorization dependent by _Shipment
       controldocument       = controldocument;
       shipquantity          = shipquantity;
       PurchaseOrderQuantityUnit = quantityunit;
-      netpr                 = netpr;
-      peinh                 = peinh;
-      netwr                 = netwr;
-      currency              = currency;
+//      netpr                 = netpr;
+//      peinh                 = peinh;
+//      netwr                 = netwr;
+//      currency              = currency;
       invoicedocument       = invoicedocument;
       invoicedate           = invoicedate;
       gtipno                = gtipno;
@@ -103,10 +101,10 @@ authorization dependent by _Shipment
       controldocument       = controldocument;
       shipquantity          = shipquantity;
       quantityunit          = quantityunit;
-      netpr                 = netpr;
-      peinh                 = peinh;
-      netwr                 = netwr;
-      currency              = currency;
+//      netpr                 = netpr;
+//      peinh                 = peinh;
+//      netwr                 = netwr;
+//      currency              = currency;
       invoicedocument       = invoicedocument;
       invoicedate           = invoicedate;
       gtipno                = gtipno;

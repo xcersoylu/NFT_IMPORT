@@ -9,10 +9,10 @@
     "AS4USER":"SAP_CUSTOMER",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@EndUserText.label: 'Çekme PO Listesi'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\n@Metadata.ignorePropagatedAnnotations: true\r\ndefine view entity ZC_NFT_DDL_IMPORT_PO_LIST_CLEA\r\n  as projection on ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\r\n{\r\n  key CompanyCode,\r\n  key deliverydocument,\r\n  key deliverydocumentitem,  \r\n      PurchaseOrder,\r\n      PurchaseOrderItem,\r\n      Plant,\r\n      StorageLocation,\r\n      Material,\r\n      MaterialText,\r\n      MaterialGroup,\r\n      MaterialGroupText,\r\n      Batch,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      shipquantity,      \r\n      referencedocument,\r\n      incentivedocument,\r\n      incentivedocumentitem,\r\n      controldocument,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      OrderQuantity,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      clearencequantity_max,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      clearencequantity,      \r\n      PurchaseOrderQuantityUnit,\r\n      @Semantics.amount.currencyCode: 'currency'\r\n      netpr,\r\n      peinh,\r\n      @Semantics.amount.currencyCode: 'currency'\r\n      netwr,\r\n      currency,\r\n      invoicedocument,\r\n      invoicedate,\r\n      gtipno,\r\n      origin,\r\n      _Clearence : redirected to parent ZC_NFT_DDL_IMPORT_CLEARENCE\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_CLEARENCE\",\n\"ZI_NFT_DDL_IMPORT_CLEARENCE\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@EndUserText.label: 'Çekme PO Listesi'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\n@Metadata.ignorePropagatedAnnotations: true\r\ndefine view entity ZC_NFT_DDL_IMPORT_PO_LIST_CLEA\r\n  as projection on ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\r\n{\r\n  key CompanyCode,\r\n  key deliverydocument,\r\n  key deliverydocumentitem,  \r\n      PurchaseOrder,\r\n      PurchaseOrderItem,\r\n      Plant,\r\n      StorageLocation,\r\n      Material,\r\n      MaterialText,\r\n      MaterialGroup,\r\n      MaterialGroupText,\r\n      Batch,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      shipquantity,      \r\n      referencedocument,\r\n      incentivedocument,\r\n      incentivedocumentitem,\r\n      controldocument,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      OrderQuantity,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      clearencequantity_max,\r\n      @Semantics.quantity.unitOfMeasure: 'PurchaseOrderQuantityUnit'\r\n      clearencequantity,      \r\n      PurchaseOrderQuantityUnit,\r\n//      @Semantics.amount.currencyCode: 'currency'\r\n//      netpr,\r\n//      peinh,\r\n//      @Semantics.amount.currencyCode: 'currency'\r\n//      netwr,\r\n//      currency,\r\n      invoicedocument,\r\n      invoicedate,\r\n      gtipno,\r\n      origin,\r\n      _Clearence : redirected to parent ZC_NFT_DDL_IMPORT_CLEARENCE\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_CLEARENCE\",\n\"ZI_NFT_DDL_IMPORT_CLEARENCE\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_PO_LIST_CLEA\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
-    "CHGFLAG":"549",
+    "CHGFLAG":"35",
     "SOURCE_TYPE":"P",
     "SOURCE_ORIGIN":"0",
     "ABAP_LANGUAGE_VERSION":"5"
@@ -89,34 +89,6 @@
     "NAME":"ABAPCATALOG.INTERNAL.ISMANDT",
     "POSITION":2,
     "VALUE":""
-   },
-   {
-    "STRUCOBJN":"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA",
-    "LFIELDNAME":"NETPR",
-    "NAME":"SEMANTICS",
-    "POSITION":11,
-    "VALUE":""
-   },
-   {
-    "STRUCOBJN":"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA",
-    "LFIELDNAME":"NETPR",
-    "NAME":"SEMANTICS.AMOUNT.CURRENCYCODE",
-    "POSITION":12,
-    "VALUE":"'currency'"
-   },
-   {
-    "STRUCOBJN":"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA",
-    "LFIELDNAME":"NETWR",
-    "NAME":"SEMANTICS",
-    "POSITION":13,
-    "VALUE":""
-   },
-   {
-    "STRUCOBJN":"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA",
-    "LFIELDNAME":"NETWR",
-    "NAME":"SEMANTICS.AMOUNT.CURRENCYCODE",
-    "POSITION":14,
-    "VALUE":"'currency'"
    },
    {
     "STRUCOBJN":"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA",

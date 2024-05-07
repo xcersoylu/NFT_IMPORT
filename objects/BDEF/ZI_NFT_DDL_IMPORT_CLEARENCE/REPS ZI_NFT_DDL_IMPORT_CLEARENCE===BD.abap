@@ -35,10 +35,6 @@ authorization dependent by _Clearence
       controldocument           = controldocument;
       clearencequantity         = clearencequantity;
       PurchaseOrderQuantityUnit = quantityunit;
-      netpr                     = netpr;
-      peinh                     = peinh;
-      netwr                     = netwr;
-      currency                  = currency;
       invoicedocument           = invoicedocument;
       invoicedate               = invoicedate;
       gtipno                    = gtipno;

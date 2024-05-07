@@ -53,54 +53,60 @@ CLASS lhc_zi_nft_ddl_import_det_main IMPLEMENTATION.
       RESULT DATA(lt_selected_lines)
       FAILED failed.
     CHECK lt_selected_lines IS NOT INITIAL.
+    IF line_exists( lt_selected_lines[ shipquantity = 0 ] ).
+      APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                      number   = '017'
+                                      severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+    ELSE.
 *kontroller
-    LOOP AT lt_selected_lines INTO DATA(ls_selected_line).
-      IF ls_selected_line-releaseisnotcompleted <> ''.
-        APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
-                                        number   = '010'
-                                        v1 = ls_selected_line-purchaseorder
-                                        severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
-      ENDIF.
+      LOOP AT lt_selected_lines INTO DATA(ls_selected_line).
+        IF ls_selected_line-releaseisnotcompleted <> ''.
+          APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                          number   = '010'
+                                          v1 = ls_selected_line-purchaseorder
+                                          severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+        ENDIF.
 
-      IF ls_selected_line-purchasingcompletenessstatus <> ''.
-        APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
-                                        number   = '012'
-                                        v1 =  ls_selected_line-purchaseorder
-                                        severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
-      ENDIF.
+        IF ls_selected_line-purchasingcompletenessstatus <> ''.
+          APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                          number   = '012'
+                                          v1 =  ls_selected_line-purchaseorder
+                                          severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+        ENDIF.
 
-      IF ls_selected_line-purchasingdocumentdeletioncode <> ''.
-        APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
-                                        number   = '011'
-                                        v1 = ls_selected_line-purchaseorder
-                                        v2 = ls_selected_line-purchaseorderitem
-                                        severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
-      ENDIF.
+        IF ls_selected_line-purchasingdocumentdeletioncode <> ''.
+          APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                          number   = '011'
+                                          v1 = ls_selected_line-purchaseorder
+                                          v2 = ls_selected_line-purchaseorderitem
+                                          severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+        ENDIF.
 
-      IF ls_selected_line-iscompletelydelivered <> ''.
-        APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
-                                        number   = '013'
-                                        v1 = ls_selected_line-purchaseorder
-                                        v2 = ls_selected_line-purchaseorderitem
-                                        severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
-      ENDIF.
+        IF ls_selected_line-iscompletelydelivered <> ''.
+          APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                          number   = '013'
+                                          v1 = ls_selected_line-purchaseorder
+                                          v2 = ls_selected_line-purchaseorderitem
+                                          severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+        ENDIF.
 
-      IF ls_selected_line-invoiceisgoodsreceiptbased <> ''.
-        APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
-                                        number   = '014'
-                                        v1 = ls_selected_line-purchaseorder
-                                        v2 = ls_selected_line-purchaseorderitem
-                                        severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
-      ENDIF.
+        IF ls_selected_line-invoiceisgoodsreceiptbased <> ''.
+          APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                          number   = '014'
+                                          v1 = ls_selected_line-purchaseorder
+                                          v2 = ls_selected_line-purchaseorderitem
+                                          severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+        ENDIF.
 
-      IF ls_selected_line-supplierconfirmationcontrolkey = ''.
-        APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
-                                        number   = '015'
-                                        v1 = ls_selected_line-purchaseorder
-                                        v2 = ls_selected_line-purchaseorderitem
-                                        severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
-      ENDIF.
-    ENDLOOP.
+        IF ls_selected_line-supplierconfirmationcontrolkey = ''.
+          APPEND VALUE #( %msg = new_message( id       = 'ZNFT_IMPORT_MC'
+                                          number   = '015'
+                                          v1 = ls_selected_line-purchaseorder
+                                          v2 = ls_selected_line-purchaseorderitem
+                                          severity = if_abap_behv_message=>severity-error ) ) TO reported-zi_nft_ddl_import_po_list.
+        ENDIF.
+      ENDLOOP.
+    ENDIF.
     IF reported-zi_nft_ddl_import_po_list IS INITIAL.
 **************
       SELECT *
@@ -136,6 +142,7 @@ CLASS lhc_zi_nft_ddl_import_det_main IMPLEMENTATION.
         READ TABLE lt_cus INTO DATA(ls_cus) WITH KEY purchaseorder = ls_selected_line-purchaseorder
                                                      purchaseorderitem = ls_selected_line-purchaseorderitem BINARY SEARCH.
         ls_delivery_item_custom_fields-shipquantity = ls_cus-shipquantity.
+        ls_Delivery_item_custom_fields-quantityunit = ls_selected_line-PurchaseOrderQuantityUnit.
         APPEND ls_delivery_item_custom_fields TO lt_delivery_item_custom_fields.
       ENDLOOP.
       INSERT znft_t_dlv_cus FROM @ls_delivery_custom_fields.

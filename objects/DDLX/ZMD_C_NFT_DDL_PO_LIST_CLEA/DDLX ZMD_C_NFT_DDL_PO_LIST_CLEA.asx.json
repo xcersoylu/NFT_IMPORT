@@ -7,9 +7,9 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-04-03",
-    "CHANGED_AT":"11:33:17",
-    "UUID":"03C4E1D494DB1EDEBCB5BECFD6281FD5",
+    "CHANGED_ON":"2024-05-07",
+    "CHANGED_AT":"14:01:04",
+    "UUID":"995523DB13041EEF838F47C56AF2203A",
     "ABAP_LANGUAGE_VERSION":"5"
    }
   ]
@@ -34,7 +34,7 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "VERSION":"A",
     "UUID":"",
-    "SOURCE":"@Metadata.layer: #CORE\r\n@Search.searchable: true\r\nannotate entity ZC_NFT_DDL_IMPORT_PO_LIST_CLEA with\r\n{\r\n  @UI: { lineItem: [ { position: 10, importance: #HIGH },\r\n                           { type: #FOR_ACTION,\r\n                             dataAction: 'ClearencePopup',\r\n                             label: 'Devam',\r\n                             invocationGrouping : #CHANGE_SET } ] }\r\n  @UI.identification: [{ position: 10 }]\r\n  CompanyCode;\r\n  @UI.lineItem: [{ position: 20 }]  \r\n  PurchaseOrder;\r\n  @UI.lineItem: [{ position: 30 }]\r\n  PurchaseOrderItem;\r\n  @UI.lineItem: [{ position: 35 }]\r\n  @EndUserText.label:'Yükleme Belgesi'\r\n  @Search.defaultSearchElement: true\r\n  deliverydocument;\r\n  @UI.lineItem: [{ position: 36 }]\r\n  deliverydocumentitem;\r\n  @UI.lineItem: [{ position: 40 }]\r\n  Plant;\r\n  @UI.lineItem: [{ position: 50 }]\r\n  StorageLocation;\r\n  @UI.lineItem: [{ position: 60 }]\r\n  @Search.defaultSearchElement: true\r\n  Material;\r\n  @UI.lineItem: [{ position: 70 }]\r\n  @EndUserText.label:'Malzeme Tanımı'\r\n  MaterialText;\r\n  @UI.lineItem: [{ position: 80 }]\r\n  MaterialGroup;\r\n  @UI.lineItem: [{ position: 90 }]\r\n  MaterialGroupText;\r\n  @UI.lineItem: [{ position: 100 }]\r\n  Batch;\r\n  @UI.lineItem: [{ position: 150 }]\r\n  incentivedocument;\r\n  @UI.lineItem: [{ position: 160 }]\r\n  incentivedocumentitem;\r\n  @UI.lineItem: [{ position: 170 }]\r\n  controldocument;\r\n  @UI.lineItem: [{ position: 175 }]\r\n  OrderQuantity;\r\n  @UI.lineItem: [{ position: 176 }]\r\n  @EndUserText.label:'Yükleme Miktarı'\r\n  shipquantity;  \r\n  @UI.lineItem: [{ position: 180 }]\r\n  @EndUserText.label:'Kalan Çekme Miktarı'\r\n  clearencequantity_max;\r\n  @UI.lineItem: [{ position: 185 }]\r\n  @EndUserText.label:'Çekme Miktarı'\r\n  clearencequantity;\r\n  @UI.lineItem: [{ position: 190 }]  \r\n  PurchaseOrderQuantityUnit;\r\n  @UI.lineItem: [{ position: 200 }]\r\n  netpr;\r\n  @UI.lineItem: [{ position: 210 }]\r\n  peinh;\r\n  @UI.lineItem: [{ position: 220 }]\r\n  netwr;\r\n  @UI.lineItem: [{ position: 230 }]\r\n  currency;\r\n  @UI.lineItem: [{ position: 240 }]\r\n  invoicedocument;\r\n  @UI.lineItem: [{ position: 250 }]\r\n  invoicedate;\r\n  @UI.lineItem: [{ position: 260 }]\r\n  gtipno;\r\n  @UI.lineItem: [{ position: 270 }]\r\n  origin;\r\n  @UI.hidden : true\r\n  referencedocument;\r\n\r\n}"
+    "SOURCE":"@Metadata.layer: #CORE\r\n@Search.searchable: true\r\nannotate entity ZC_NFT_DDL_IMPORT_PO_LIST_CLEA with\r\n{\r\n  @UI: { lineItem: [ { position: 10, importance: #HIGH },\r\n                           { type: #FOR_ACTION,\r\n                             dataAction: 'ClearencePopup',\r\n                             label: 'Devam',\r\n                             invocationGrouping : #CHANGE_SET } ] }\r\n  @UI.identification: [{ position: 10 }]\r\n  CompanyCode;\r\n  @UI.lineItem: [{ position: 11 }]  \r\n  PurchaseOrder;\r\n  @UI.lineItem: [{ position: 12 }]\r\n  PurchaseOrderItem;\r\n  @UI.lineItem: [{ position: 20 }]\r\n  @EndUserText.label:'Yükleme Belgesi'\r\n  @Search.defaultSearchElement: true\r\n  deliverydocument;\r\n  @UI.lineItem: [{ position: 30 }]\r\n  deliverydocumentitem;\r\n  @UI.lineItem: [{ position: 40 }]\r\n  Plant;\r\n  @UI.lineItem: [{ position: 50 }]\r\n  StorageLocation;\r\n  @UI.lineItem: [{ position: 60 }]\r\n  @Search.defaultSearchElement: true\r\n  Material;\r\n  @UI.lineItem: [{ position: 70 }]\r\n  @EndUserText.label:'Malzeme Tanımı'\r\n  MaterialText;\r\n  @UI.lineItem: [{ position: 80 }]\r\n  MaterialGroup;\r\n  @UI.lineItem: [{ position: 90 }]\r\n  MaterialGroupText;\r\n  @UI.lineItem: [{ position: 100 }]\r\n  Batch;\r\n  @UI.lineItem: [{ position: 241 }]\r\n  incentivedocument;\r\n  @UI.lineItem: [{ position: 242 }]\r\n  incentivedocumentitem;\r\n  @UI.lineItem: [{ position: 243 }]\r\n  controldocument;\r\n  @UI.lineItem: [{ position: 175 }]\r\n  OrderQuantity;\r\n  @UI.lineItem: [{ position: 176 }]\r\n  @EndUserText.label:'Yükleme Miktarı'\r\n  shipquantity;  \r\n  @UI.lineItem: [{ position: 180 }]\r\n  @EndUserText.label:'Kalan Çekme Miktarı'\r\n  clearencequantity_max;\r\n  @UI.lineItem: [{ position: 185 }]\r\n  @EndUserText.label:'Çekme Miktarı'\r\n  clearencequantity;\r\n  @UI.lineItem: [{ position: 190 }]  \r\n  PurchaseOrderQuantityUnit;\r\n  @UI.lineItem: [{ position: 240 }]\r\n  invoicedocument;\r\n  @UI.lineItem: [{ position: 250 }]\r\n  invoicedate;\r\n  @UI.lineItem: [{ position: 260 }]\r\n  gtipno;\r\n  @UI.lineItem: [{ position: 270 }]\r\n  origin;\r\n  @UI.hidden : true\r\n  referencedocument;\r\n\r\n}"
    }
   ]
  },
@@ -138,14 +138,7 @@
     "ELEMENT":"CONTROLDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"170"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
-    "ELEMENT":"CURRENCY",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"230"
+    "VALUE":"243"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
@@ -166,14 +159,14 @@
     "ELEMENT":"DELIVERYDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"35"
+    "VALUE":"20"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "ELEMENT":"DELIVERYDOCUMENTITEM",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"36"
+    "VALUE":"30"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
@@ -187,14 +180,14 @@
     "ELEMENT":"INCENTIVEDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"150"
+    "VALUE":"241"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "ELEMENT":"INCENTIVEDOCUMENTITEM",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"160"
+    "VALUE":"242"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
@@ -254,20 +247,6 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
-    "ELEMENT":"NETPR",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"200"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
-    "ELEMENT":"NETWR",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"220"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "ELEMENT":"ORDERQUANTITY",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
@@ -282,13 +261,6 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
-    "ELEMENT":"PEINH",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"210"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "ELEMENT":"PLANT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
@@ -299,14 +271,14 @@
     "ELEMENT":"PURCHASEORDER",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"20"
+    "VALUE":"11"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
     "ELEMENT":"PURCHASEORDERITEM",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"30"
+    "VALUE":"12"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST_CLEA",
@@ -444,8 +416,8 @@
     "EXTENDED_ARTIFACT":"ZC_NFT_DDL_IMPORT_PO_LIST_CLEA",
     "VARIANT":"",
     "LAYER":1500,
-    "DT_UUID":"03C4E1D494DB1EDEBCB5BECFD6281FD5",
-    "RT_HASH":"6236D9AE9ED9DD787DA98D9E46D08AA1B444F416",
+    "DT_UUID":"995523DB13041EEF838F47C56AF2203A",
+    "RT_HASH":"38850486C30F6BFF2452DA9231FAE0BD7F152E80",
     "GEN_VERSION":"0"
    }
   ]

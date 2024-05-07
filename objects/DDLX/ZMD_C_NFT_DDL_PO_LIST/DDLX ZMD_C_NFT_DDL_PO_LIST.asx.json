@@ -7,9 +7,9 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-04-30",
-    "CHANGED_AT":"19:10:20",
-    "UUID":"995523DB13041EEF81E4A9257E3B8025",
+    "CHANGED_ON":"2024-05-07",
+    "CHANGED_AT":"08:57:04",
+    "UUID":"995523DB13041EEF8389F8C899FCE039",
     "ABAP_LANGUAGE_VERSION":"5"
    }
   ]
@@ -34,7 +34,7 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
     "VERSION":"A",
     "UUID":"",
-    "SOURCE":"@Metadata.layer: #CORE\r\n@Search.searchable: true\r\nannotate entity ZC_NFT_DDL_IMPORT_PO_LIST with\r\n{\r\n  @UI: { lineItem: [ { position: 10, importance: #HIGH },\r\n                           { type: #FOR_ACTION,\r\n                             dataAction: 'DeliveryPopup',\r\n                             label: 'Devam',\r\n                             invocationGrouping : #CHANGE_SET } ] }\r\n  @UI.identification: [{ position: 10 }]\r\n  CompanyCode;\r\n  @UI.lineItem: [{ position: 20 }]\r\n  @Search.defaultSearchElement: true\r\n  PurchaseOrder;\r\n  @UI.lineItem: [{ position: 30 }]\r\n  PurchaseOrderItem;\r\n  @UI.lineItem: [{ position: 40 }]\r\n  @Search.defaultSearchElement: true\r\n  Plant;\r\n  @UI.lineItem: [{ position: 50 }]\r\n  StorageLocation;\r\n  @UI.lineItem: [{ position: 60 }]\r\n  @Search.defaultSearchElement: true\r\n  Material;\r\n  @UI.lineItem: [{ position: 70 }]\r\n  @EndUserText.label:'Malzeme Tanımı'\r\n  MaterialText;\r\n  @UI.lineItem: [{ position: 80 }]\r\n  MaterialGroup;\r\n  @UI.lineItem: [{ position: 90 }]\r\n  MaterialGroupText;\r\n  @UI.lineItem: [{ position: 100 }]\r\n  Batch;\r\n  @UI.lineItem: [{ position: 150 }]\r\n  incentivedocument;\r\n  @UI.lineItem: [{ position: 160 }]\r\n  incentivedocumentitem;\r\n  @UI.lineItem: [{ position: 170 }]\r\n  controldocument;\r\n  @UI.lineItem: [{ position: 175 }]\r\n  OrderQuantity;\r\n  @UI.lineItem: [{ position: 180 }]\r\n  @EndUserText.label:'Yüklenebilir Miktar'\r\n  shipquantity_max;\r\n  @UI.lineItem: [{ position: 180 }]\r\n  @EndUserText.label:'Yükleme Miktarı'\r\n  shipquantity;\r\n  @UI.lineItem: [{ position: 190 }]\r\n  PurchaseOrderQuantityUnit;\r\n  @UI.lineItem: [{ position: 200 }]\r\n  netpr;\r\n  @UI.lineItem: [{ position: 210 }]\r\n  peinh;\r\n  @UI.lineItem: [{ position: 220 }]\r\n  netwr;\r\n  @UI.lineItem: [{ position: 230 }]\r\n  currency;\r\n  @UI.lineItem: [{ position: 240 }]\r\n  invoicedocument;\r\n  @UI.lineItem: [{ position: 250 }]\r\n  invoicedate;\r\n  @UI.lineItem: [{ position: 260 }]\r\n  gtipno;\r\n  @UI.lineItem: [{ position: 270 }]\r\n  mensei;\r\n  @UI.lineItem: [{ position: 280 }]\r\n  Supplier;\r\n  @UI.lineItem: [{ position: 290 }]\r\n  SupplierName;\r\n  @UI.hidden : true\r\n  referencedocument;\r\n  @UI.hidden : true\r\n  ReleaseIsNotCompleted;\r\n  @UI.hidden : true\r\n  PurchasingCompletenessStatus;\r\n  @UI.hidden : true\r\n  PurchasingDocumentDeletionCode;\r\n  @UI.hidden : true\r\n  IsCompletelyDelivered;\r\n  @UI.hidden : true\r\n  InvoiceIsGoodsReceiptBased;\r\n  @UI.hidden : true\r\n  SupplierConfirmationControlKey;\r\n\r\n}"
+    "SOURCE":"@Metadata.layer: #CORE\r\n@Search.searchable: true\r\nannotate entity ZC_NFT_DDL_IMPORT_PO_LIST with\r\n{\r\n  @UI: { lineItem: [ { position: 10, importance: #HIGH },\r\n                           { type: #FOR_ACTION,\r\n                             dataAction: 'DeliveryPopup',\r\n                             label: 'Devam',\r\n                             invocationGrouping : #CHANGE_SET } ] }\r\n  @UI.identification: [{ position: 10 }]\r\n  CompanyCode;\r\n  @UI.lineItem: [{ position: 20 }]\r\n  @Search.defaultSearchElement: true\r\n  PurchaseOrder;\r\n  @UI.lineItem: [{ position: 30 }]\r\n  PurchaseOrderItem;\r\n  @UI.lineItem: [{ position: 40 }]\r\n  @Search.defaultSearchElement: true\r\n  Plant;\r\n  @UI.lineItem: [{ position: 50 }]\r\n  StorageLocation;\r\n  @UI.lineItem: [{ position: 60 }]\r\n  @Search.defaultSearchElement: true\r\n  Material;\r\n  @UI.lineItem: [{ position: 70 }]\r\n  @EndUserText.label:'Malzeme Tanımı'\r\n  MaterialText;\r\n  @UI.lineItem: [{ position: 80 }]\r\n  MaterialGroup;\r\n  @UI.lineItem: [{ position: 90 }]\r\n  MaterialGroupText;\r\n  @UI.lineItem: [{ position: 100 }]\r\n  Batch;\r\n  @UI.lineItem: [{ position: 105 }]\r\n  OrderQuantity;\r\n  @UI.lineItem: [{ position: 110 }]\r\n  @EndUserText.label:'Yüklenebilir Miktar'\r\n  shipquantity_max;\r\n  @UI.lineItem: [{ position: 120 }]\r\n  @EndUserText.label:'Yükleme Miktarı'\r\n  shipquantity;\r\n  @UI.lineItem: [{ position: 130 }]\r\n  PurchaseOrderQuantityUnit;  \r\n  @UI.lineItem: [{ position: 140 }]\r\n  incentivedocument;\r\n  @UI.lineItem: [{ position: 150 }]\r\n  incentivedocumentitem;\r\n  @UI.lineItem: [{ position: 160 }]\r\n  controldocument;\r\n\r\n//  @UI.lineItem: [{ position: 200 }]\r\n//  netpr;\r\n//  @UI.lineItem: [{ position: 210 }]\r\n//  peinh;\r\n//  @UI.lineItem: [{ position: 220 }]\r\n//  netwr;\r\n//  @UI.lineItem: [{ position: 230 }]\r\n//  currency;\r\n  @UI.lineItem: [{ position: 240 }]\r\n  invoicedocument;\r\n  @UI.lineItem: [{ position: 250 }]\r\n  invoicedate;\r\n  @UI.lineItem: [{ position: 260 }]\r\n  gtipno;\r\n  @UI.lineItem: [{ position: 270 }]\r\n  mensei;\r\n  @UI.lineItem: [{ position: 280 }]\r\n  Supplier;\r\n  @UI.lineItem: [{ position: 290 }]\r\n  SupplierName;\r\n  @UI.hidden : true\r\n  referencedocument;\r\n  @UI.hidden : true\r\n  ReleaseIsNotCompleted;\r\n  @UI.hidden : true\r\n  PurchasingCompletenessStatus;\r\n  @UI.hidden : true\r\n  PurchasingDocumentDeletionCode;\r\n  @UI.hidden : true\r\n  IsCompletelyDelivered;\r\n  @UI.hidden : true\r\n  InvoiceIsGoodsReceiptBased;\r\n  @UI.hidden : true\r\n  SupplierConfirmationControlKey;\r\n\r\n}"
    }
   ]
  },
@@ -110,14 +110,7 @@
     "ELEMENT":"CONTROLDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"170"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
-    "ELEMENT":"CURRENCY",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"230"
+    "VALUE":"160"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
@@ -131,14 +124,14 @@
     "ELEMENT":"INCENTIVEDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"150"
+    "VALUE":"140"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
     "ELEMENT":"INCENTIVEDOCUMENTITEM",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"160"
+    "VALUE":"150"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
@@ -219,31 +212,10 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
-    "ELEMENT":"NETPR",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"200"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
-    "ELEMENT":"NETWR",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"220"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
     "ELEMENT":"ORDERQUANTITY",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"175"
-   },
-   {
-    "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
-    "ELEMENT":"PEINH",
-    "NAME":"UI.LINEITEM$1$.POSITION",
-    "ELEMENT_TYPE":"S",
-    "VALUE":"210"
+    "VALUE":"105"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
@@ -285,7 +257,7 @@
     "ELEMENT":"PURCHASEORDERQUANTITYUNIT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"190"
+    "VALUE":"130"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
@@ -327,7 +299,7 @@
     "ELEMENT":"SHIPQUANTITY",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"180"
+    "VALUE":"120"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
@@ -341,7 +313,7 @@
     "ELEMENT":"SHIPQUANTITY_MAX",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
-    "VALUE":"180"
+    "VALUE":"110"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_PO_LIST",
@@ -444,8 +416,8 @@
     "EXTENDED_ARTIFACT":"ZC_NFT_DDL_IMPORT_PO_LIST",
     "VARIANT":"",
     "LAYER":1500,
-    "DT_UUID":"995523DB13041EEF81E4A9257E3B8025",
-    "RT_HASH":"0D344ACFADDB50B0C35A649D65AD27ED74807CE3",
+    "DT_UUID":"995523DB13041EEF8389F8C899FCE039",
+    "RT_HASH":"07375EC9A5E2E6C2F0CF1B8AB7966EF99B49270F",
     "GEN_VERSION":"0"
    }
   ]
