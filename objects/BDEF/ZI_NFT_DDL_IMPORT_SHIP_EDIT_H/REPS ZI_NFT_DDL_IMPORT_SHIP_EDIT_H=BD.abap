@@ -14,8 +14,20 @@ authorization master ( instance )
 
   mapping for znft_t_dlv_cus
     {
-      companycode      = companycode;
-      deliverydocument = deliverydocument;
+      companycode               = companycode;
+      deliverydocument          = deliverydocument;
+      deliverydate              = deliverydate;
+      loadingdate               = loadingdate;
+      billoflading              = billoflading;
+      customsgate               = customsgate;
+      customsreceivedate        = customsreceivedate;
+      invoiceno                 = invoiceno;
+      invoicedate               = invoicedate;
+      fictitiousdeclerationdate = fictitiousdeclerationdate;
+      fictitiousdeclerationno   = fictitiousdeclerationno;
+      customsdeclerationdate    = customsdeclerationdate;
+      customsdeclerationno      = customsdeclerationno;
+      importdate                = importdate;
     }
 }
 
@@ -27,14 +39,19 @@ authorization dependent by _header
 {
   update;
   delete;
-  field ( readonly ) companycode, deliverydocument, deliverydocumentitem;
+  field ( readonly ) companycode, deliverydocument, deliverydocumentitem, quantityunit;
   association _header;
   mapping for znft_t_dlvit_cus
     {
-      companycode          = companycode;
-      deliverydocument     = deliverydocument;
-      deliverydocumentitem = deliverydocumentitem;
-      shipquantity         = shipquantity;
-      quantityunit         = quantityunit;
+      companycode           = companycode;
+      deliverydocument      = deliverydocument;
+      deliverydocumentitem  = deliverydocumentitem;
+      shipquantity          = shipquantity;
+      quantityunit          = quantityunit;
+      incentivedocument     = incentivedocument;
+      incentivedocumentitem = incentivedocumentitem;
+      controldocument       = controldocument;
+      gtipno                = gtipno;
+      origin                = origin;
     }
 }

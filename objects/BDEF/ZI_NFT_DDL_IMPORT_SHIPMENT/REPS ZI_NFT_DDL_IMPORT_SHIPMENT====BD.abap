@@ -37,10 +37,6 @@ authorization dependent by _Shipment
       controldocument       = controldocument;
       shipquantity          = shipquantity;
       PurchaseOrderQuantityUnit = quantityunit;
-//      netpr                 = netpr;
-//      peinh                 = peinh;
-//      netwr                 = netwr;
-//      currency              = currency;
       invoicedocument       = invoicedocument;
       invoicedate           = invoicedate;
       gtipno                = gtipno;
@@ -59,9 +55,6 @@ authorization dependent by _Shipment
       companycode                = companycode;
       deliverydocument           = deliverydocument;
       deliverydate               = deliverydate;
-      meansoftransporttype       = meansoftransporttype;
-      transportationplanningdate = transportationplanningdate;
-      transportid                = transportid;
       loadingdate                = loadingdate;
       billoflading               = billoflading;
       documenttype               = documenttype;
@@ -74,11 +67,6 @@ authorization dependent by _Shipment
       customsdeclerationdate     = customsdeclerationdate;
       customsdeclerationno       = customsdeclerationno;
       importdate                 = importdate;
-      insurancepolicynumber      = insurancepolicynumber;
-      correspondencefilenumber   = correspondencefilenumber;
-      currency                   = currency;
-      valuationrate              = valuationrate;
-      origin                     = origin;
     }
 }
 
@@ -101,10 +89,6 @@ authorization dependent by _Shipment
       controldocument       = controldocument;
       shipquantity          = shipquantity;
       quantityunit          = quantityunit;
-//      netpr                 = netpr;
-//      peinh                 = peinh;
-//      netwr                 = netwr;
-//      currency              = currency;
       invoicedocument       = invoicedocument;
       invoicedate           = invoicedate;
       gtipno                = gtipno;

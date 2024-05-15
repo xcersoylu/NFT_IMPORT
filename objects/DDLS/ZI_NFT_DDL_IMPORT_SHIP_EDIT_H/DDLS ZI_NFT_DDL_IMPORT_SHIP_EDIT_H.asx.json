@@ -9,10 +9,10 @@
     "AS4USER":"SAP_CUSTOMER",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@EndUserText.label: 'Yükleme Güncelleme Başlık'\r\ndefine root view entity ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\r\n  as select distinct from ZI_NFT_DDL_IMPORT_SHIP_BASE\r\n  composition [0..*] of ZI_NFT_DDL_IMPORT_SHIP_EDIT_I as _item\r\n{\r\n  key companycode,\r\n  key deliverydocument,\r\n      _item\r\n} where clearencedocument is null\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_BASE\"\n],\n\"ASSOCIATED\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_I\"\n],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@EndUserText.label: 'Yükleme Güncelleme Başlık'\r\ndefine root view entity ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\r\n  as select distinct from ZI_NFT_DDL_IMPORT_SHIP_BASE\r\n  composition [0..*] of ZI_NFT_DDL_IMPORT_SHIP_EDIT_I as _item\r\n{\r\n  key companycode,\r\n  key deliverydocument,\r\n      deliverydate,\r\n      loadingdate,\r\n      billoflading,\r\n      customsgate,\r\n      customsreceivedate,\r\n      invoiceno,\r\n      invoicedate,\r\n      fictitiousdeclerationdate,\r\n      fictitiousdeclerationno,\r\n      customsdeclerationdate,\r\n      customsdeclerationno,\r\n      importdate,\r\n      _item\r\n}\r\nwhere\r\n  clearencedocument is null\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_BASE\"\n],\n\"ASSOCIATED\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_I\"\n],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
-    "CHGFLAG":"",
+    "CHGFLAG":"4",
     "SOURCE_TYPE":"W",
     "SOURCE_ORIGIN":"0",
     "ABAP_LANGUAGE_VERSION":"5"

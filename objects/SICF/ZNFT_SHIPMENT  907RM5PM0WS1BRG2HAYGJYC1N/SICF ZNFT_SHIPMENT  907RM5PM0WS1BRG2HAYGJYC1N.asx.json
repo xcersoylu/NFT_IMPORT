@@ -44,7 +44,7 @@
     "ICF_REDIR":"",
     "ICF_TIME":"00:00:00",
     "ICF_CUSER":"SAP_CUSTOMER",
-    "ICF_CDATE":"2024-02-01",
+    "ICF_CDATE":"2024-05-10",
     "ICF_MUSER":"SAP_CUSTOMER",
     "ICF_MDATE":"0000-00-00",
     "ICF_HTTPS":"",
@@ -122,8 +122,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2024-02-01",
-    "CHECK_DATE":"2024-02-01",
+    "CREATED_ON":"2024-05-10",
+    "CHECK_DATE":"2024-05-10",
     "CHECK_CFG":""
    }
   ]

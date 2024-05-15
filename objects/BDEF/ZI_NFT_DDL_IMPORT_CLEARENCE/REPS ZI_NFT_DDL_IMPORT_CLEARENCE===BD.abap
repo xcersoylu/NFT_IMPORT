@@ -1,5 +1,5 @@
 managed implementation in class zbp_i_nft_ddl_import_clearence unique;
-strict ( 1 );
+//strict ( 1 );
 
 define behavior for ZI_NFT_DDL_IMPORT_CLEARENCE //alias <alias_name>
 with unmanaged save

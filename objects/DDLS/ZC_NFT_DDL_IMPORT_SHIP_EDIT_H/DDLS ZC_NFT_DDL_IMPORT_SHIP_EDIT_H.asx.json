@@ -9,10 +9,10 @@
     "AS4USER":"SAP_CUSTOMER",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@EndUserText.label: 'Yükleme Güncelleme Başlık'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\ndefine root view entity ZC_NFT_DDL_IMPORT_SHIP_EDIT_H \r\nprovider contract transactional_query\r\nas projection on ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\r\n{\r\n    key companycode,\r\n    key deliverydocument,\r\n\r\n    _item : redirected to composition child ZC_NFT_DDL_IMPORT_SHIP_EDIT_I\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_SHIP_EDIT_I\",\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_I\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@EndUserText.label: 'Yükleme Güncelleme Başlık'\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@Metadata.allowExtensions: true\r\ndefine root view entity ZC_NFT_DDL_IMPORT_SHIP_EDIT_H \r\nprovider contract transactional_query\r\nas projection on ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\r\n{\r\n    key companycode,\r\n    key deliverydocument,\r\n      deliverydate,\r\n      loadingdate,\r\n      billoflading,\r\n      customsgate,\r\n      customsreceivedate,\r\n      invoiceno,\r\n      invoicedate,\r\n      fictitiousdeclerationdate,\r\n      fictitiousdeclerationno,\r\n      customsdeclerationdate,\r\n      customsdeclerationno,\r\n      importdate,    \r\n\r\n    _item : redirected to composition child ZC_NFT_DDL_IMPORT_SHIP_EDIT_I\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\"\n],\n\"ASSOCIATED\":\n[\n\"ZC_NFT_DDL_IMPORT_SHIP_EDIT_I\",\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_I\"\n],\n\"BASE\":\n[\n\"ZI_NFT_DDL_IMPORT_SHIP_EDIT_H\"\n],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
-    "CHGFLAG":"",
+    "CHGFLAG":"4",
     "SOURCE_TYPE":"P",
     "SOURCE_ORIGIN":"0",
     "ABAP_LANGUAGE_VERSION":"5"

@@ -1,5 +1,5 @@
 projection;
-strict ( 1 );
+//strict ( 1 );
 
 define behavior for ZC_NFT_DDL_IMPORT_CLEARENCE //alias <alias_name>
 {

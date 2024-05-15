@@ -7,9 +7,9 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-05-03",
-    "CHANGED_AT":"15:37:14",
-    "UUID":"995523DB13041EEF82AC6077DC01A02B",
+    "CHANGED_ON":"2024-05-08",
+    "CHANGED_AT":"10:26:49",
+    "UUID":"899EC1BB03DB1EEF83A4AF52CC10803C",
     "ABAP_LANGUAGE_VERSION":"5"
    }
   ]
@@ -34,7 +34,7 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "VERSION":"A",
     "UUID":"",
-    "SOURCE":"@Metadata.layer: #CORE\r\n@UI:{\r\nheaderInfo:{\r\n                typeNamePlural: 'Yükleme Güncelleme Ekranı',\r\n                typeName: 'Yükleme Güncelleme Ekranı',\r\n                title:{ type: #STANDARD, label: 'Yükleme Güncelleme Ekranı'  }\r\n           }\r\n}\r\nannotate entity ZC_NFT_DDL_IMPORT_SHIP_EDIT_H\r\n    with \r\n{\r\n  @UI.facet: [  { id:              'Shipment',\r\n                  purpose:         #STANDARD,\r\n                  type:            #LINEITEM_REFERENCE,\r\n                  label:           'Yükleme Güncelleme',\r\n                  position:        10,\r\n                  targetElement:   '_item' }\r\n                  ]\r\n    @UI.lineItem: [{ position: 10 }]\r\n    companycode;\r\n    @UI.lineItem: [{ position: 20 }]\r\n    deliverydocument;    \r\n    \r\n}"
+    "SOURCE":"@Metadata.layer: #CORE\r\n@UI:{\r\nheaderInfo:{\r\n                typeNamePlural: 'Yükleme Güncelleme Ekranı',\r\n                typeName: 'Yükleme Güncelleme Ekranı',\r\n                title:{ type: #STANDARD, label: 'Yükleme Güncelleme Ekranı'  }\r\n           }\r\n}\r\nannotate entity ZC_NFT_DDL_IMPORT_SHIP_EDIT_H with\r\n{\r\n  @UI.facet: [  { id:              'Header',\r\n                  purpose:         #STANDARD,\r\n                  type:            #IDENTIFICATION_REFERENCE,\r\n                  label:           'Başlık',\r\n                  position:        10 } ,\r\n                 { id:              'Item',\r\n                  purpose:         #STANDARD,\r\n                  type:            #LINEITEM_REFERENCE,\r\n                  label:           'Kalem',\r\n                  position:        20,\r\n                  targetElement:   '_item' }\r\n                  ]\r\n  @UI.lineItem: [{ position: 10 }]\r\n  @UI.identification: [{ position : 10 }]\r\n  companycode;\r\n  @UI.lineItem: [{ position: 20 }]\r\n  @UI.identification: [{ position : 20 }]\r\n  deliverydocument;\r\n  @UI.identification: [{ position : 30 }]\r\n  deliverydate;\r\n  @UI.identification: [{ position : 40 }]\r\n  loadingdate;\r\n  @UI.identification: [{ position : 50 }]\r\n  billoflading;\r\n  @UI.identification: [{ position : 60 }]\r\n  customsgate;\r\n  @UI.identification: [{ position : 70 }]\r\n  customsreceivedate;\r\n  @UI.identification: [{ position : 80 }]\r\n  invoiceno;\r\n  @UI.identification: [{ position : 90 }]\r\n  invoicedate;\r\n  @UI.identification: [{ position : 100 }]\r\n  fictitiousdeclerationdate;\r\n  @UI.identification: [{ position : 110 }]\r\n  fictitiousdeclerationno;\r\n  @UI.identification: [{ position : 120 }]\r\n  customsdeclerationdate;\r\n  @UI.identification: [{ position : 130 }]\r\n  customsdeclerationno;\r\n  @UI.identification: [{ position : 140 }]\r\n  importdate;\r\n}"
    }
   ]
  },
@@ -72,17 +72,24 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"BILLOFLADING",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"50"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "ELEMENT":"COMPANYCODE",
     "NAME":"UI.FACET$1$.ID",
     "ELEMENT_TYPE":"S",
-    "VALUE":"'Shipment'"
+    "VALUE":"'Header'"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "ELEMENT":"COMPANYCODE",
     "NAME":"UI.FACET$1$.LABEL",
     "ELEMENT_TYPE":"S",
-    "VALUE":"'Yükleme Güncelleme'"
+    "VALUE":"'Başlık'"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
@@ -101,16 +108,58 @@
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "ELEMENT":"COMPANYCODE",
-    "NAME":"UI.FACET$1$.TARGETELEMENT",
+    "NAME":"UI.FACET$1$.TYPE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#IDENTIFICATION_REFERENCE"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$2$.ID",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"'Item'"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$2$.LABEL",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"'Kalem'"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$2$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"20"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$2$.PURPOSE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#STANDARD"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$2$.TARGETELEMENT",
     "ELEMENT_TYPE":"S",
     "VALUE":"'_item'"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "ELEMENT":"COMPANYCODE",
-    "NAME":"UI.FACET$1$.TYPE",
+    "NAME":"UI.FACET$2$.TYPE",
     "ELEMENT_TYPE":"S",
     "VALUE":"#LINEITEM_REFERENCE"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"10"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
@@ -121,10 +170,94 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"CUSTOMSDECLERATIONDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"120"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"CUSTOMSDECLERATIONNO",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"130"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"CUSTOMSGATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"60"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"CUSTOMSRECEIVEDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"70"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"DELIVERYDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"30"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"DELIVERYDOCUMENT",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"20"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
     "ELEMENT":"DELIVERYDOCUMENT",
     "NAME":"UI.LINEITEM$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"20"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"FICTITIOUSDECLERATIONDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"100"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"FICTITIOUSDECLERATIONNO",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"110"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"IMPORTDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"140"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"INVOICEDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"90"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"INVOICENO",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"80"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "ELEMENT":"LOADINGDATE",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"40"
    }
   ]
  },
@@ -186,7 +319,14 @@
     "DDLANGUAGE":"T",
     "ELEMENT":"COMPANYCODE",
     "NAME":"UI.FACET$1$.LABEL",
-    "TEXT":"Yükleme Güncelleme"
+    "TEXT":"Başlık"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_H",
+    "DDLANGUAGE":"T",
+    "ELEMENT":"COMPANYCODE",
+    "NAME":"UI.FACET$2$.LABEL",
+    "TEXT":"Kalem"
    }
   ]
  },
@@ -199,8 +339,8 @@
     "EXTENDED_ARTIFACT":"ZC_NFT_DDL_IMPORT_SHIP_EDIT_H",
     "VARIANT":"",
     "LAYER":1500,
-    "DT_UUID":"995523DB13041EEF82AC6077DC01A02B",
-    "RT_HASH":"8D7CC265AA2E73AE22F6DD67457FB6686140E46C",
+    "DT_UUID":"899EC1BB03DB1EEF83A4AF52CC10803C",
+    "RT_HASH":"962A64F6DA8ADFB2FAB351DC370FC7B0AC10C566",
     "GEN_VERSION":"0"
    }
   ]

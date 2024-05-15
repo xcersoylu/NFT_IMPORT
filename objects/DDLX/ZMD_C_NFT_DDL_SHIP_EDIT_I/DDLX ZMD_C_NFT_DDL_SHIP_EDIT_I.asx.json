@@ -7,9 +7,9 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
     "VERSION":"A",
     "CHANGED_BY":"SAP_CUSTOMER",
-    "CHANGED_ON":"2024-05-03",
-    "CHANGED_AT":"15:41:11",
-    "UUID":"995523DB13041EEF82AC72215BFD402B",
+    "CHANGED_ON":"2024-05-08",
+    "CHANGED_AT":"11:23:03",
+    "UUID":"899EC1BB03DB1EEF83A5AAA7F803003C",
     "ABAP_LANGUAGE_VERSION":"5"
    }
   ]
@@ -34,7 +34,7 @@
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
     "VERSION":"A",
     "UUID":"",
-    "SOURCE":"@Metadata.layer: #CORE\r\n@UI:{\r\nheaderInfo:{\r\n                typeNamePlural: 'Yükleme Güncelleme Ekranı',\r\n                typeName: 'Yükleme Güncelleme Ekranı',\r\n                title:{ type: #STANDARD, label: 'Yükleme Güncelleme Ekranı'  }\r\n           }\r\n}\r\nannotate entity ZC_NFT_DDL_IMPORT_SHIP_EDIT_I\r\n    with \r\n{\r\n  @UI.facet: [ { id:              'ShipmentItem',\r\n                  purpose:         #STANDARD,\r\n                  type:            #IDENTIFICATION_REFERENCE,\r\n                  label:           'Yükleme Güncelleme Kalem',\r\n                  position:        10 } ]\r\n  @UI: { lineItem:       [ { position: 10, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 10 } ],\r\n         identification: [{ position: 10 }] }         \r\n  companycode;\r\n  @UI: { lineItem:       [ { position: 20, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 20 } ],\r\n         identification: [{ position: 20 }] }        \r\n  deliverydocument;\r\n  @UI: { lineItem:       [ { position: 30, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 30 } ],\r\n         identification: [{ position: 30 }] }        \r\n  deliverydocumentitem;\r\n  @UI: { lineItem:       [ { position: 40, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 40 } ],\r\n         identification: [{ position: 40 }] }        \r\n  shipquantity;  \r\n    \r\n}"
+    "SOURCE":"@Metadata.layer: #CORE\r\n@UI:{\r\nheaderInfo:{\r\n                typeNamePlural: 'Yükleme Güncelleme Ekranı',\r\n                typeName: 'Yükleme Güncelleme Ekranı',\r\n                title:{ type: #STANDARD, label: 'Yükleme Güncelleme Ekranı'  }\r\n           }\r\n}\r\nannotate entity ZC_NFT_DDL_IMPORT_SHIP_EDIT_I\r\n    with \r\n{\r\n  @UI.facet: [ { id:              'ShipmentItem',\r\n                  purpose:         #STANDARD,\r\n                  type:            #IDENTIFICATION_REFERENCE,\r\n                  label:           'Yükleme Güncelleme Kalem',\r\n                  position:        10 } ]\r\n  @UI: { lineItem:       [ { position: 10, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 10 } ],\r\n         identification: [{ position: 10 }] }         \r\n  companycode;\r\n  @UI: { lineItem:       [ { position: 20, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 20 } ],\r\n         identification: [{ position: 20 }] }        \r\n  deliverydocument;\r\n  @UI: { lineItem:       [ { position: 30, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 30 } ],\r\n         identification: [{ position: 30 }] }        \r\n  deliverydocumentitem;\r\n  @UI: { lineItem:       [ { position: 40, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 40 } ],\r\n         identification: [{ position: 40 }] }        \r\n  shipquantity;  \r\n  @UI: { lineItem:       [ { position: 50, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 50 } ],\r\n         identification: [{ position: 50 }] }       \r\nincentivedocument;\r\n  @UI: { lineItem:       [ { position: 60, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 60 } ],\r\n         identification: [{ position: 60 }] }     \r\nincentivedocumentitem;\r\n  @UI: { lineItem:       [ { position: 70, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 70 } ],\r\n         identification: [{ position: 70 }] }     \r\ncontroldocument ;\r\n  @UI: { lineItem:       [ { position: 80, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 80 } ],\r\n         identification: [{ position: 80 }] }      \r\ngtipno ;   \r\n  @UI: { lineItem:       [ { position: 90, importance: #HIGH } ] ,\r\n         selectionField: [ { position: 90 } ],\r\n         identification: [{ position: 90 }] }     \r\norigin ;               \r\n    \r\n}"
    }
   ]
  },
@@ -135,6 +135,34 @@
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"CONTROLDOCUMENT",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"70"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"CONTROLDOCUMENT",
+    "NAME":"UI.LINEITEM$1$.IMPORTANCE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#HIGH"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"CONTROLDOCUMENT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"70"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"CONTROLDOCUMENT",
+    "NAME":"UI.SELECTIONFIELD$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"70"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
     "ELEMENT":"DELIVERYDOCUMENT",
     "NAME":"UI.IDENTIFICATION$1$.POSITION",
     "ELEMENT_TYPE":"S",
@@ -188,6 +216,118 @@
     "NAME":"UI.SELECTIONFIELD$1$.POSITION",
     "ELEMENT_TYPE":"S",
     "VALUE":"30"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"GTIPNO",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"80"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"GTIPNO",
+    "NAME":"UI.LINEITEM$1$.IMPORTANCE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#HIGH"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"GTIPNO",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"80"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"GTIPNO",
+    "NAME":"UI.SELECTIONFIELD$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"80"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENT",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"50"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENT",
+    "NAME":"UI.LINEITEM$1$.IMPORTANCE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#HIGH"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENT",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"50"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENT",
+    "NAME":"UI.SELECTIONFIELD$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"50"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENTITEM",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"60"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENTITEM",
+    "NAME":"UI.LINEITEM$1$.IMPORTANCE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#HIGH"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENTITEM",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"60"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"INCENTIVEDOCUMENTITEM",
+    "NAME":"UI.SELECTIONFIELD$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"60"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"ORIGIN",
+    "NAME":"UI.IDENTIFICATION$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"90"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"ORIGIN",
+    "NAME":"UI.LINEITEM$1$.IMPORTANCE",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"#HIGH"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"ORIGIN",
+    "NAME":"UI.LINEITEM$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"90"
+   },
+   {
+    "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
+    "ELEMENT":"ORIGIN",
+    "NAME":"UI.SELECTIONFIELD$1$.POSITION",
+    "ELEMENT_TYPE":"S",
+    "VALUE":"90"
    },
    {
     "DDLXNAME":"ZMD_C_NFT_DDL_SHIP_EDIT_I",
@@ -290,8 +430,8 @@
     "EXTENDED_ARTIFACT":"ZC_NFT_DDL_IMPORT_SHIP_EDIT_I",
     "VARIANT":"",
     "LAYER":1500,
-    "DT_UUID":"995523DB13041EEF82AC72215BFD402B",
-    "RT_HASH":"C6626D5F6395C213868949B08411B0DC300DFC3B",
+    "DT_UUID":"899EC1BB03DB1EEF83A5AAA7F803003C",
+    "RT_HASH":"5C44477B384EC4E16491D7A745728099C1A0F260",
     "GEN_VERSION":"0"
    }
   ]

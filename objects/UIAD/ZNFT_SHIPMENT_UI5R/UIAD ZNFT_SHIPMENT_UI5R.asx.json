@@ -15,7 +15,7 @@
     "WD_APPL_ID":"",
     "WD_CONF_ID":"",
     "WCF_TARGET_ID":"",
-    "UI5_APP_ID":"znftimportshipment",
+    "UI5_APP_ID":"znftshipment",
     "FIORI_ID":"",
     "ICF_PATH":"",
     "SYSTEM_ALIAS":"",
@@ -33,7 +33,7 @@
     "REFRESH_INTERVALL":0,
     "DISPLAY_NUMBER_UNIT":"",
     "FLAVOR_ID":"",
-    "CHANGED_AT":"+020240215134028",
+    "CHANGED_AT":"+020240510145755",
     "CHANGED_BY":"SAP_CUSTOMER",
     "MASTERLANG":"",
     "ACH_COMPONENT":"",
@@ -165,8 +165,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2024-02-15",
-    "CHECK_DATE":"2024-02-15",
+    "CREATED_ON":"2024-05-10",
+    "CHECK_DATE":"2024-05-10",
     "CHECK_CFG":""
    }
   ]

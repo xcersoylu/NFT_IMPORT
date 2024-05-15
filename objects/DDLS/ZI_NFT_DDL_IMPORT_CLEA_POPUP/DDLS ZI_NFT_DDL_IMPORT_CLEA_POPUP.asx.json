@@ -9,7 +9,7 @@
     "AS4USER":"SAP_CUSTOMER",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@EndUserText.label: 'Çekme Popup'\r\n@Metadata.allowExtensions: true\r\ndefine abstract entity ZI_NFT_DDL_IMPORT_CLEA_POPUP\r\n{\r\n  deliverydate               : znft_e_lfdat_v;\r\n  meansoftransporttype       : znft_e_traty;\r\n  transportationplanningdate : znft_e_tddat_d;\r\n  transportid                : znft_e_traid;\r\n  loadingdate                : znft_e_lddat;\r\n  billoflading               : znft_e_bolnr;\r\n//  @Consumption.valueHelpDefinition: [ { entity: { name: 'ZVH_NFT_DDL_DDTYP', element: 'Value' }}]\r\n  documenttype               : znft_e_ddtyp;\r\n  customsgate                : znft_e_customgate;\r\n  customsreceivedate         : znft_e_customrdate;\r\n  invoiceno                  : znft_e_pronu;\r\n  invoicedate2               : znft_e_proda;\r\n  fictitiousdeclerationdate  : znft_e_ficdd;\r\n  fictitiousdeclerationno    : znft_e_ficdn;\r\n  customsdeclerationdate     : znft_e_cusdd;\r\n  customsdeclerationno       : znft_e_cusdn;\r\n  importdate                 : znft_e_importdate;\r\n  insurancepolicynumber      : znft_e_ipnum;\r\n  correspondencefilenumber   : znft_e_cfnum;\r\n  @Consumption.valueHelpDefinition: [ { entity: { name: 'I_CurrencyStdVH', element: 'Currency' }}]\r\n  currency                   : waers;\r\n  valuationrate              : znft_e_kkurs;\r\n  origin                     : znft_e_origin;\r\n    \r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[],\n\"ASSOCIATED\":\n[],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@EndUserText.label: 'Çekme Popup'\r\n@Metadata.allowExtensions: true\r\ndefine abstract entity ZI_NFT_DDL_IMPORT_CLEA_POPUP\r\n{\r\n  deliverydate               : znft_e_lfdat_v;\r\n  meansoftransporttype       : znft_e_traty;\r\n  transportationplanningdate : znft_e_tddat_d;\r\n  transportid                : znft_e_traid;\r\n  loadingdate                : znft_e_lddat;\r\n  billoflading               : znft_e_bolnr;\r\n//  @Consumption.valueHelpDefinition: [ { entity: { name: 'ZVH_NFT_DDL_DDTYP', element: 'Value' }}]\r\n  documenttype               : znft_e_ddtyp;\r\n  customsgate                : znft_e_customgate;\r\n  customsreceivedate         : znft_e_customrdate;\r\n  @UI.defaultValue: '111'\r\n  invoiceno                  : znft_e_pronu;\r\n  invoicedate2               : znft_e_proda;\r\n  fictitiousdeclerationdate  : znft_e_ficdd;\r\n  fictitiousdeclerationno    : znft_e_ficdn;\r\n  customsdeclerationdate     : znft_e_cusdd;\r\n  customsdeclerationno       : znft_e_cusdn;\r\n  importdate                 : znft_e_importdate;\r\n  insurancepolicynumber      : znft_e_ipnum;\r\n  correspondencefilenumber   : znft_e_cfnum;\r\n  @Consumption.valueHelpDefinition: [ { entity: { name: 'I_CurrencyStdVH', element: 'Currency' }}]\r\n  currency                   : waers;\r\n  valuationrate              : znft_e_kkurs;\r\n  origin                     : znft_e_origin;\r\n    \r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[],\n\"ASSOCIATED\":\n[],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
     "CHGFLAG":"",
@@ -310,29 +310,43 @@
     "STRUCOBJN":"ZI_NFT_DDL_IMPORT_CLEA_POPUP",
     "LFIELDNAME":"CURRENCY",
     "NAME":"CONSUMPTION",
-    "POSITION":1,
+    "POSITION":3,
     "VALUE":""
    },
    {
     "STRUCOBJN":"ZI_NFT_DDL_IMPORT_CLEA_POPUP",
     "LFIELDNAME":"CURRENCY",
     "NAME":"CONSUMPTION.VALUEHELPDEFINITION$1$.ENTITY",
-    "POSITION":2,
+    "POSITION":4,
     "VALUE":""
    },
    {
     "STRUCOBJN":"ZI_NFT_DDL_IMPORT_CLEA_POPUP",
     "LFIELDNAME":"CURRENCY",
     "NAME":"CONSUMPTION.VALUEHELPDEFINITION$1$.ENTITY.ELEMENT",
-    "POSITION":4,
+    "POSITION":6,
     "VALUE":"'Currency'"
    },
    {
     "STRUCOBJN":"ZI_NFT_DDL_IMPORT_CLEA_POPUP",
     "LFIELDNAME":"CURRENCY",
     "NAME":"CONSUMPTION.VALUEHELPDEFINITION$1$.ENTITY.NAME",
-    "POSITION":3,
+    "POSITION":5,
     "VALUE":"'I_CurrencyStdVH'"
+   },
+   {
+    "STRUCOBJN":"ZI_NFT_DDL_IMPORT_CLEA_POPUP",
+    "LFIELDNAME":"INVOICENO",
+    "NAME":"UI",
+    "POSITION":1,
+    "VALUE":""
+   },
+   {
+    "STRUCOBJN":"ZI_NFT_DDL_IMPORT_CLEA_POPUP",
+    "LFIELDNAME":"INVOICENO",
+    "NAME":"UI.DEFAULTVALUE",
+    "POSITION":2,
+    "VALUE":"'111'"
    }
   ]
  },

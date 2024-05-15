@@ -31,6 +31,7 @@
      FAILED DATA(ls_failed)
      REPORTED DATA(ls_reported)
      MAPPED DATA(ls_mapped).
+
     IF ls_failed IS NOT INITIAL.
       ms_response-error_messages = VALUE #( FOR wa IN ls_reported-journalentry ( wa-%msg->if_message~get_text( ) ) ).
       response->set_status('400').
